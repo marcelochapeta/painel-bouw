@@ -1,0 +1,19 @@
+{
+ "quem": "Iago",
+ "aberto_em": "2026-08-17T15:55:36",
+ "estado": "novo",
+ "contexto": {
+  "mlb": "MLB22093014726",
+  "titulo": "Pistola Fincapino PRA10",
+  "canal": "Shopee",
+  "aba": "calculadora"
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Iago",
+   "quando": "2026-08-17T15:55:36",
+   "texto": "O preço cheio da pistola tá 979, no site é 1.092,20"
+  }
+ ]
+}
