@@ -1,7 +1,7 @@
 {
  "quem": "Marcelo - Shopee",
  "aberto_em": "2026-08-18T12:56:11.466Z",
- "estado": "novo",
+ "estado": "respondido",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -30,8 +30,11 @@
    "quem": "Marcelo - Shopee",
    "quando": "2026-08-18T14:41:07.965Z",
    "texto": "rode a shopee p ficar ok"
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-18T15:37:22",
+   "texto": "Shopee rodada e no ar.\n\n243 anúncios (eram 241), 227 com custo. Os 9 preços que você listou continuam batendo certo. Injetei nas três telas e republiquei o painel no link — ele estava em 11/08 e agora está em 17/08.\n\nRecarrega a página. Se vier o antigo, ctrl+shift+R."
   }
- ],
- "_arq": "2026-08-18T12-56-11-466Z-marceloshopee.json",
- "_sha": "fac68a3c6094b522b23dcb67f245ec21df502ce8"
+ ]
 }
