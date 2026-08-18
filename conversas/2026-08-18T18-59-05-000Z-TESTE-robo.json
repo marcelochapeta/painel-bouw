@@ -1,0 +1,19 @@
+{
+ "quem": "TESTE do robô (apagar)",
+ "aberto_em": "2026-08-18T18:59:05.000Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": null,
+  "titulo": null,
+  "canal": "shopee",
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "TESTE do robô (apagar)",
+   "quando": "2026-08-18T18:59:05.000Z",
+   "texto": "TESTE AUTOMATICO — nao e chamado real. Responda apenas confirmando que a rodada automatica funcionou, em uma frase, sem investigar nada."
+  }
+ ]
+}
