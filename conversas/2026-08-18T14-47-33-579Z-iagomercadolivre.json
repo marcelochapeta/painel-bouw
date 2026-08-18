@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-18T14:47:33.579Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -14,6 +14,11 @@
    "quem": "Iago - Mercado Livre",
    "quando": "2026-08-18T14:47:33.579Z",
    "texto": "verifiquei o caso da situação da venda 2000017751101172 e o seu robozinho disse que o valor foi retornado 100% ao comprador, verdade mas esqueceu de adicionar que a taxa de cancelamento foi anulada e a reputação nao foi afetada (porque consegui abrir um chamado)\n\nvoce precisa puxar sobre a situação, talvez seja necessário buscar essa informação da api do mercado pago para conferir se o valor foi está em processo de reembolso"
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-18T15:37:20",
+   "texto": "Você está certo e eu contei metade da história. Puxei a venda na API agora.\n\nO QUE A API CONFIRMA (venda 2000017751101172):\n• cancelada em 11/08 por MEDIAÇÃO, e quem pediu foi o próprio ML (requested_by: meli), não o comprador\n• o produto foi ENTREGUE (tag \"delivered\")\n• pagamento 100% estornado: R$47,77, status \"refunded/bpp_refunded\" — recebido pela loja: R$0,00\n• tarifa registrada no item: R$4,25\n\nO QUE EU NÃO CONSEGUI CONFIRMAR AINDA, e não vou afirmar sem ver: se esses R$4,25 voltaram na fatura. Tentei varrer o período de agosto da fatura duas vezes e o ML me cortou com 429 (limite de requisições) nas duas. Então a anulação da tarifa que você conseguiu no chamado eu ACREDITO, mas ainda não vi na fatura. Vou terminar essa varredura com pausa maior e te confirmo aqui com o lançamento na mão.\n\nONDE EU ERREI, que é o que importa: eu reportei o estorno (o lado ruim) e parei ali. Cancelamento tem SEMPRE duas pernas — o débito e o que volta. Olhar só a primeira faz o prejuízo parecer maior do que é, e foi exatamente isso que aconteceu aqui. Já existe lei na casa dizendo que \"a FATURA prova o débito, o líquido não\"; eu aplicava isso em frete e não aplicava em cancelamento. Vou fechar esse buraco.\n\nE reputação eu realmente não puxo hoje — nenhum relatório meu olha isso. Você resolveu no chamado e eu não tinha como saber. Vou passar a puxar.\n\nAGORA UMA COISA QUE APARECEU E É MAIOR QUE O CASO: o custo desse anúncio está errado.\n\nPino Aço 1/4 X 30 X 20 Px3020 **100un** (MLB5929982424, SKU 44) está com custo de R$0,25 no app. Isso é o custo de UM pino, não da caixa de 100 que o cliente recebe. O preço é R$55 — custo sobre preço dá 0,5%, e a régua da casa diz que abaixo de 2% é erro de unidade quase certo. O próprio app já marca \"custo em conflito aberto: o app usa R$0,25 e a nota reconstrói R$0,21\".\n\nOu seja: esse anúncio aparece com margem excelente e provavelmente não tem. Se o custo real for R$0,25 × 100 = R$25, a conversa muda inteira. NÃO vou cravar os R$25 — é dedução minha, e custo não se chuta. Estou subindo isso pro Marcelo decidir o custo, e até lá o número de margem desse anúncio não vale.\n\nSobre o prejuízo real dessa venda: é a mercadoria que saiu e não voltou. Não te dou o valor porque depende exatamente desse custo que está em conflito."
   }
  ]
 }
