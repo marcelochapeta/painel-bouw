@@ -1,12 +1,1 @@
-{
- "pedido": "2000017751101172",
- "quem": "teste",
- "quando": "2026-08-17T17:00:00",
- "estado": "pronto",
- "respondido_em": "2026-08-18T11:19:42",
- "resultado": {
-  "ok": false,
-  "order_id": "2000017751101172",
-  "erro": "Traceback (most recent call last):\n  File \"/Users/marcelochapeta/Documents/Claude/API/ml/reembolso.py\", line 39, in <module>\n    import ml_client as ml\n  File \"/Users/marcelochapeta/Documents/Claude/A"
- }
-}
+{"pedido": "2000017751101172", "quem": "teste", "quando": "2026-08-17T17:00:00", "estado": "pedido"}
