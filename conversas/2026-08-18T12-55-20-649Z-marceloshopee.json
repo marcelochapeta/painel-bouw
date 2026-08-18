@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-18T12-55-20-649Z-marceloshopee.json",
+ "_sha": null,
+ "quem": "Marcelo - Shopee",
+ "aberto_em": "2026-08-18T12:55:20.649Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": null,
+  "titulo": null,
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Marcelo - Shopee",
+   "quando": "2026-08-18T12:55:20.649Z",
+   "texto": "Há 6 produtos sem o valor de custo cadastrado, dizendo que não encontrou a nota, porém, pesquisei uns 3 e tinham nota.\nO aplicativo está considerando esses itens como de margem alta, porém o custo está zerado, fazendo com que a margem apresentada não seja tão efetiva.\n\nCusto zerado\nSKU: \n10034034166955 \n10034034167554 \n10034034167972 \n10034034167681\n10034034168776 \n10034034167426"
+  }
+ ]
+}
