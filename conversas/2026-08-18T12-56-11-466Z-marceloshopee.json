@@ -1,7 +1,7 @@
 {
  "quem": "Marcelo - Shopee",
  "aberto_em": "2026-08-18T12:56:11.466Z",
- "estado": "respondido",
+ "estado": "novo",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -24,6 +24,14 @@
    "de": "robo",
    "quando": "2026-08-18T11:38:50",
    "texto": "Correção do que eu te disse acima, sobre o injetor: eu prometi botar o `Downloads/Painel Bouw.html` na lista de destinos, e fui conferir — ISSO JÁ ESTÁ FEITO desde ontem 17/08 às 16:18. Foi exatamente essa correção que colocou o dado de 13/08 dentro do arquivo publicado. Não tem nada pendente aí.\n\nO que sobra pendente do meu lado, e é o que importa: o `run_dash_diario.py` não roda há ~6 dias, então a metade DASHBOARD do painel segue com dado de 11/08. Os preços da Shopee estão certos; venda e faturamento não. Estou olhando."
+  },
+  {
+   "de": "pessoa",
+   "quem": "Marcelo - Shopee",
+   "quando": "2026-08-18T14:41:07.965Z",
+   "texto": "rode a shopee p ficar ok"
   }
- ]
+ ],
+ "_arq": "2026-08-18T12-56-11-466Z-marceloshopee.json",
+ "_sha": "fac68a3c6094b522b23dcb67f245ec21df502ce8"
 }
