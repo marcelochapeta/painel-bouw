@@ -1,9 +1,7 @@
 {
- "_arq": "2026-08-18T12-54-14-821Z-marcelomercadolivre.json",
- "_sha": null,
  "quem": "Marcelo - Mercado livre",
  "aberto_em": "2026-08-18T12:54:14.821Z",
- "estado": "novo",
+ "estado": "em_analise",
  "contexto": {
   "mlb": null,
   "titulo": null,
