@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-18T19:30:35.494Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "SHP23498377186",
   "titulo": "Kit 2un Painel LED 24W Sobrepor Redondo 6500K Avant Bivolt Iluminação Forte Alta Durabilid",
@@ -14,6 +14,11 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-18T19:30:35.494Z",
    "texto": "Preciso que você se atente mais aos detalhes, principalmente quando o produto for kit e tiver variações.\n\nNeste caso, você considerou o preço de venda atual de R$ 57,14 e o custo de R$ 110,00, mas esse anúncio possui variações com quantidades diferentes, então cada variação tem um custo específico.\n\nPor exemplo:\n\n1 unidade: custo de R$ 54,14, pois é uma unidade avulsa e possui um custo menor.\n2 unidades: possui outro custo, correspondente ao kit com 2 unidades.\n\nO anúncio é:\n\nKit 2 Un. Painel LED 24W Sobrepor Redondo 6500K Avant Bivolt – Iluminação Forte e Alta Durabilidade\n\nPor isso, é importante analisar cada variação separadamente, considerando o preço de venda e o custo correspondente àquela quantidade, para que a margem seja calculada corretamente. Já faça um ajuste geral e reveja isso no Mercado Livre também."
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-18T16:42:42",
+   "texto": "Você está certa, e o erro era pior do que parecia: não é só a variação — o custo de R$110,00 estava simplesmente ERRADO.\n\nO QUE EU ACHEI NA NOTA (NF 775832, Avant):\nO painel de 24W custa R$17,05 na nota, R$18,71 com IPI. É a MESMA lâmpada nas duas cores. Só que alguém cravou R$110,00 à mão no SKU do amarelo (10034034166915). Seis vezes o valor real.\n\nE esse erro vazou pro kit: o Kit 2 amarelo (10034034168161) é calculado a partir da unidade, então virou 2 × 110 = R$220,00. Um número errado contaminou dois anúncios.\n\nJÁ CORRIGI (com backup):\n  10034034166915  1 un amarelo ....  110,00 → 18,71   (igual à branca, mesma nota)\n  10034034168161  Kit 2 amarelo ...  220,00 → 37,42   (2 × 18,71, igual ao Kit 2 branco)\n\nOs outros dois já estavam certos: 1 un branca 18,71 e Kit 2 branca 37,42.\n\nSOBRE A SUA OBSERVAÇÃO DE FUNDO — variação com quantidade diferente — você tem razão e é o que quebra a conta. Nesse anúncio existem 4 variações:\n  1 un branca .... preço 57,14 · custo 18,71   → margem sã\n  1 un amarela ... preço 57,14 · custo 18,71   → agora sã (era 110,00)\n  Kit 2 branca ... preço 107,60 · custo 37,42  → margem sã\n  Kit 2 amarela .. preço 107,60 · custo 37,42  → agora sã (era 220,00)\n\nO app estava pegando o preço de UMA variação (57,14, a de 1 unidade) e o custo de OUTRA, e mostrando −116,3% como se o anúncio inteiro estivesse no prejuízo. Não estava: era mistura de variação, exatamente como você disse.\n\n⚠️ UMA COISA QUE EU AINDA NÃO CONSERTEI, e prefiro te avisar: o número que aparece no cabeçalho do anúncio continua sendo de uma variação só. Consertei o CUSTO, não a forma de exibir. Enquanto a tela não mostrar variação por variação, o número do topo de qualquer anúncio com quantidades diferentes vai continuar sendo meia verdade. Isso é mudança na tela e eu subi pro Marcelo.\n\nO custo novo já está no Mercado Livre (rodei a cadeia e injetei). Na Shopee está rodando agora, leva uns 10 minutos — depois recarrega a página."
   }
  ]
 }
