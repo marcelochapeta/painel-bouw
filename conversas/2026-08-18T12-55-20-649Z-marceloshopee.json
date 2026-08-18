@@ -1,7 +1,7 @@
 {
  "quem": "Marcelo - Shopee",
  "aberto_em": "2026-08-18T12:55:20.649Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -14,6 +14,11 @@
    "quem": "Marcelo - Shopee",
    "quando": "2026-08-18T12:55:20.649Z",
    "texto": "Há 6 produtos sem o valor de custo cadastrado, dizendo que não encontrou a nota, porém, pesquisei uns 3 e tinham nota.\nO aplicativo está considerando esses itens como de margem alta, porém o custo está zerado, fazendo com que a margem apresentada não seja tão efetiva.\n\nCusto zerado\nSKU: \n10034034166955 \n10034034167554 \n10034034167972 \n10034034167681\n10034034168776 \n10034034167426"
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-18T11:34:11",
+   "texto": "Você está certo: as notas existem. Mas o app não está dizendo \"não achei a nota\" — ele achou, e travou num ponto depois disso. Rodei o farejador nos 6 e trago o que cada um está esperando.\n\nEm 4 dos 6 a nota FOI encontrada. O que falta é saber quantas peças vêm na embalagem, porque a nota é por PACOTE/ROLO e o anúncio é por unidade. Sem isso o custo unitário seria chute, e chute em custo é o que faz um anúncio parecer 40% e estar em 8%:\n\n• 10034034166955 — Fita Dupla Face\n  NF 069977 (Koretech) · R$16,65 por \"RL\" (rolo)\n  Falta: o anúncio é 15cm; a nota é de rolo 12MMx20M. Quantos rolos/qual metragem entram no que o cliente recebe?\n  ⚠️ E a nota é de 31/01/2025 — mais de um ano. Mesmo destravando, o custo estaria velho.\n\n• 10034034168776 — Touca Sanfonada\n  NF 177057 de 16/07/2026 (Prevemax) · R$8,30 por \"PCT\"\n  Falta: quantas toucas vêm no pacote. Só isso.\n\n• 10034034167426 — Kit 10 Mangote\n  NF 211157 de 29/07/2026 (VCH) · R$19,50 por \"PCT100\" · base 10034034168726\n  Falta: confirmar que PCT100 = 100 unidades. Se for, o custo do kit de 10 sai direto. Eu NÃO vou assumir isso sozinho — \"PCT100\" pode ser código do fornecedor, e se eu errar o kit inteiro sai errado.\n\n• 10034034167972 — Fita Adesiva 45mm (esse não está na aba Shopee, só no ML)\n  Esse tem nota E tem custo, mas está sinalizado de propósito: NF 527165 veio a R$24,98 contra R$3,94 da compra anterior — 6,3 vezes mais cara — e o fornecedor mudou de Koretech para Saint-Gobain. É a mesma pegadinha da fita do mês passado: nota de outro produto lançada neste código. Não solto esse custo sem você confirmar qual fita é.\n\nEm 2 dos 6 eu realmente NÃO acho nota nenhuma:\n\n• 10034034167554 — Kit 10 Disco Lixa Vonder 180mm G80\n• 10034034167681 — Kit 8 Disco Corte Fino Norton 115mm\n\nNos dois o farejador varreu a NFe crua e o índice do Tiny e não achou entrada. Como são KITs, o custo teria que vir da composição no Tiny — e a composição não está amarrada. Se você viu nota desses dois, provavelmente foi da peça avulsa (o disco solto), não do kit: a peça pode ter nota e o kit continuar sem custo, porque o kit é montagem, não é comprado. Me diz qual nota você viu que eu amarro.\n\nSOBRE \"o app considera esses itens como de margem alta\": aqui eu discordo, e é importante. Conferi os 5 que estão na aba Shopee — os cinco estão com custo NULO e fonte \"a validar\", e a margem deles vem VAZIA, não alta. O app não está inventando margem boa; está dizendo que não sabe. Se na sua tela eles aparecem no meio dos de margem alta, isso é ordenação (o vazio subindo junto com os altos), não cálculo — e aí é ajuste de tela, que eu faço. Me confirma se é isso que você está vendo, ou me manda o print, porque se o app estiver mesmo exibindo um número de margem pra item sem custo, isso é grave e eu paro tudo pra consertar.\n\nO que destrava mais rápido: as duas embalagens (quantas toucas no PCT, e se PCT100 são 100 mangotes). Com essas duas respostas eu fecho 2 dos 6 hoje mesmo."
   }
  ]
 }
