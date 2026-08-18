@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-18T19-10-33-622Z-anashopee.json",
+ "_sha": null,
+ "quem": "Ana - Shopee",
+ "aberto_em": "2026-08-18T19:10:33.622Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": "SHP22698485819",
+  "titulo": "Kit 4 Luva de Proteção Látex  Danny Max Orange Resistente Antiderrapante Confortável DA208",
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Ana - Shopee",
+   "quando": "2026-08-18T19:10:33.622Z",
+   "texto": "Lembre-se, para produtos que são kits, \nvocê precisa considerar o custo do kit não do unitário.\n\nExemplo: Kit 4 Luva de Proteção Látex Danny Max Orange Resistente Antiderrapante Confortável DA208\n\nEsse você pegou o custo unitário e disse que a margem estava alta, sendo que é um kit e o preço está de acordo, verifique os produtos que são kits e ajuste o custo deles conforme os respectivos valores."
+  }
+ ]
+}
