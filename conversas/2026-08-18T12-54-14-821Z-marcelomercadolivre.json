@@ -1,7 +1,7 @@
 {
  "quem": "Marcelo - Mercado livre",
  "aberto_em": "2026-08-18T12:54:14.821Z",
- "estado": "novo",
+ "estado": "respondido",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -25,8 +25,11 @@
    "quem": "Marcelo - Mercado livre",
    "quando": "2026-08-18T15:03:34.541Z",
    "texto": "o que eu quis dizer com simples nacional é que o pis está a 0,65% e o cofins a 3%. Só preciso que corriga esse anuncio em especifico."
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-18T12:19:39",
+   "texto": "CONSERTADO E NO AR. Voltando aqui como prometi.\n\nO crédito de ICMS estava mesmo alto, e você achou pelo caminho certo. A base do ICMS é a MERCADORIA, sem IPI — o motor aplicava os 12% em cima do custo inteiro, IPI incluso. Nesse anúncio:\n\n  crédito de ICMS   5,26 -> 4,80\n  crédito total     8,84 -> 8,41\n  margem            7,39% -> 6,83%\n\nO 6,83% é exatamente o número que eu te dei mais cedo como \"consertando só o meu bug do IPI\". Bateu.\n\nPor que só 0,56pp e não os 3pp que você esperava: o grosso da diferença não é esse bug, é o crédito de PIS/COFINS sobre as taxas do ML (R$1,57/un = 2,1pp). Esse eu NÃO mexi — continua valendo o que eu disse: é pergunta pro contador, e se ele disser que não credita, cai ~2pp na margem de TODOS os anúncios. Mesma coisa para o IPI na base do PIS/COFINS. Os dois conservam a margem mais alta, e eu não mudo nada nessa direção sem resposta dele.\n\nO que rodou, para você poder conferir:\n• 5.269 SKUs recalculados. 58 mudaram — TODOS para baixo, nenhum para cima. Queda somada R$14,67 por unidade, maior caso R$3,40 (Kit 8 Protetor Acoplar).\n• Bateria do precificador: APROVADA, 15.722 verificações. Ela estava reprovando há dias em 753 casos, e não era o motor: era a própria bateria cobrando o \"imposto nunca negativo\", regra que VOCÊ revogou em 11/08 na Corrente Plástica. Corrigi a guarda para o que continua sendo erro de verdade (crédito maior que o disponível).\n• O número novo foi injetado nas TRÊS telas: painel.html, precificador.html e o Painel Bouw.html que vira a página publicada. O injetor do ML tinha um destino cravado no código e alimentava só uma — mesmo furo que o da Shopee já teve. Agora ele descobre os destinos sozinho.\n\nRecarrega a página que o 6,83% já está lá."
   }
- ],
- "_arq": "2026-08-18T12-54-14-821Z-marcelomercadolivre.json",
- "_sha": "7f38bf5b5b0ed95c7489bdd9f410664629d2038c"
+ ]
 }
