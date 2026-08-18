@@ -1,9 +1,7 @@
 {
- "_arq": "2026-08-18T14-47-33-579Z-iagomercadolivre.json",
- "_sha": null,
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-18T14:47:33.579Z",
- "estado": "novo",
+ "estado": "em_analise",
  "contexto": {
   "mlb": null,
   "titulo": null,
