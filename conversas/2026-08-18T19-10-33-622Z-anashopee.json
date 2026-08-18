@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-18T19:10:33.622Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "SHP22698485819",
   "titulo": "Kit 4 Luva de Proteção Látex  Danny Max Orange Resistente Antiderrapante Confortável DA208",
@@ -20,6 +20,11 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-18T19:13:19.938Z",
    "texto": "E outro detalhe importante, verifique também se você não cometeu esse mesmo erro no Mercado Livre, caso sim, preciso que ajuste também."
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-18T16:42:45",
+   "texto": "Você está certa. Fui atrás nos DOIS canais, como você pediu, e achei 6 anúncios com o mesmo erro.\n\nO CASO QUE VOCÊ CITOU (Kit 4 Luva Danny Max Orange DA208):\nA NF 260592, de 17/08, traz a luva a R$6,24 com unidade \"PR\" — ou seja, R$6,24 é UM PAR. O anúncio vende 4 pares por R$62,30, e o app estava usando 6,24 como se fosse o custo do que o cliente recebe.\nCusto certo do kit = 4 × 6,24 = R$24,96. A margem cai de 36,7% para bem menos.\n\nA RAIZ: esse anúncio da Shopee está vinculado ao SKU da luva AVULSA (10034034166637), não a um SKU de kit. No Tiny ele não tem composição cadastrada, então o sistema não tem como saber que são 4 — ele lê \"Kit 4\" no título, e ler quantidade de título é justamente o que já me fez errar feio antes (teve caso de \"ÓCULOS KIT 12\" que eram 24, e \"Cartucho KIT 10\" que eram 10 caixas de 100). Por isso eu não multiplico sozinho e calado.\n\nOS 6 QUE ACHEI (custo hoje é de 1 peça; o kit custa n vezes isso):\n\nSHOPEE\n  Kit 4 Luva Danny Max Orange ....... 6,24 → 24,96   (preço 62,30)\n  Kit 8 Luva DA36201 Nitrílica ...... 9,83 → 78,64   (preço 107,69)  ← este é o mais apertado\n  Kit 2 Luva Super Silver ........... 3,67 →  7,34   (preço 26,70)\n\nMERCADO LIVRE\n  Kit 2 Óculos Leopardo CA 11268 .... 2,53 →  5,06   (preço 24,00)  [2 anúncios]\n  Kit 2 Lápis Carpinteiro ........... 1,30 →  2,60   (preço 19,50)\n\nNos 6 a unidade da nota é PR (par) ou PC (peça), então multiplicar faz sentido e o custo resultante fica entre 13% e 73% do preço — faixa normal.\n\nO QUE EU **NÃO** VOU MEXER, e é importante você saber por quê:\nA varredura levantou outros 8 candidatos que eu descartei porque a unidade da nota JÁ É pacote:\n  Kit 1000 Pino Liso ...... a NF é em \"MI\" (milheiro) — multiplicar por 1000 daria R$60.100 num produto de R$142\n  Kit 100 Abraçadeiras .... NF em \"Mil\"\n  Kit 100 Tela Alvenaria .. NF em \"CX\" (caixa)\n  Kit 10 Luva Mapa ........ NF em \"CX\"\nNesses o custo atual já é do pacote e multiplicar destruiria o número. Foi por isso que eu separei por unidade da nota em vez de sair multiplicando tudo que tem \"Kit\" no nome.\n\nE 2 ficam pendentes de verdade: Kit 500 Parafuso Chipboard e Kit 200 Parafuso Phs (ML). A nota é em \"CT\" (cento), então 500 unidades = 5 centos, não 500 — mas hoje esses dois estão SEM custo apurado, então não tenho de onde partir.\n\nO QUE PRECISO DE VOCÊ (1 minuto e destrava os 6):\nConfirma que esses 6 anúncios entregam mesmo a quantidade do título — 4 pares, 8 pares, 2 pares, 2 óculos, 2 lápis? Se sim eu gravo os custos na hora e rodo a cadeia nos dois canais.\n\nE o conserto de raiz é no Tiny: cadastrar a composição desses kits (kit = n × SKU da peça). Com a composição cadastrada eu paro de depender do título e isso nunca mais volta. Se você fizer isso, me avisa que eu recalculo tudo sozinho."
   }
  ]
 }
