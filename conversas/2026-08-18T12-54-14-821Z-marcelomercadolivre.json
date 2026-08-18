@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-18T12-54-14-821Z-marcelomercadolivre.json",
+ "_sha": null,
+ "quem": "Marcelo - Mercado livre",
+ "aberto_em": "2026-08-18T12:54:14.821Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": null,
+  "titulo": null,
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Marcelo - Mercado livre",
+   "quando": "2026-08-18T12:54:14.821Z",
+   "texto": "Protetor Auditivo Auricular Acoplar P/ Capacete 17db C/ Ca Cinza\nencontrei erro no calculo do pis, cofins e icms. os valores estão muito alto. Na nota está com o pis e cofins do simples nacional.\nsimples nacional a soma dos créditos de icms/pins/cofins  = 6,26 com lucro real = 8,05. no app resulta em 10,4\na margem está em 7,4% mas na verdade está proximo de 4%"
+  }
+ ]
+}
