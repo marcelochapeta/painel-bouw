@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-18T14-47-33-579Z-iagomercadolivre.json",
+ "_sha": null,
+ "quem": "Iago - Mercado Livre",
+ "aberto_em": "2026-08-18T14:47:33.579Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": null,
+  "titulo": null,
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Iago - Mercado Livre",
+   "quando": "2026-08-18T14:47:33.579Z",
+   "texto": "verifiquei o caso da situação da venda 2000017751101172 e o seu robozinho disse que o valor foi retornado 100% ao comprador, verdade mas esqueceu de adicionar que a taxa de cancelamento foi anulada e a reputação nao foi afetada (porque consegui abrir um chamado)\n\nvoce precisa puxar sobre a situação, talvez seja necessário buscar essa informação da api do mercado pago para conferir se o valor foi está em processo de reembolso"
+  }
+ ]
+}
