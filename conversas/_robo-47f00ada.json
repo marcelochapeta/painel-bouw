@@ -1,0 +1,15 @@
+{
+ "quem": "Robô",
+ "aberto_em": "2026-08-19T09:03:40",
+ "estado": "novo",
+ "contexto": {
+  "titulo": "Pipeline Bouw"
+ },
+ "mensagens": [
+  {
+   "de": "robo",
+   "quando": "2026-08-19T09:03:40",
+   "texto": "Vigia de estoque parado há 22h — última rodada boa foi 18/08 10:53."
+  }
+ ]
+}
