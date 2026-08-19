@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-19T16-33-10-565Z-iagomercadolivre.json",
+ "_sha": null,
+ "quem": "Iago - Mercado Livre",
+ "aberto_em": "2026-08-19T16:33:10.565Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": "MLB4222433138",
+  "titulo": "Luva Soldador Weld Master Alta Temperatura Até 500ºc 41cm",
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Iago - Mercado Livre",
+   "quando": "2026-08-19T16:33:10.565Z",
+   "texto": "o tem Luva Soldador Weld Master Alta Temperatura Até 500ºc 41cm. SKU 64 está com os calculo dos créditos da nota fiscal de referencia incorretos. verifique pro favor e atualize.No meu calculo deu em torno de 6,19. Isso faz com que a margem vá para cerca de 8%"
+  }
+ ]
+}
