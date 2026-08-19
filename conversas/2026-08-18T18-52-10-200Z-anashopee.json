@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-18T18:52:10.200Z",
- "estado": "novo",
+ "estado": "em_analise",
  "contexto": {
   "mlb": "SHP18999689167",
   "titulo": "Tela Fibra de Vidro Reforço Cimenticia Alvenaria Fachada Impermeabilização  Malha 1 x 50m",
@@ -26,7 +26,5 @@
    "quando": "2026-08-19T12:07:28.263Z",
    "texto": "O rolo vem 50 metros e o preço dele é 207,68, aplica apenas para esse produto, os demais, teria que verificar melhor"
   }
- ],
- "_arq": "2026-08-18T18-52-10-200Z-anashopee.json",
- "_sha": "cec0ae8b133034c17b73288364458bf2589be6e1"
+ ]
 }
