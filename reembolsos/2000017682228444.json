@@ -2,5 +2,89 @@
  "pedido": "2000017682228444",
  "quem": "Iago - Mercado Livre",
  "quando": "2026-08-19T13:14:18.838Z",
- "estado": "pedido"
+ "estado": "pronto",
+ "respondido_em": "2026-08-19T10:15:04",
+ "resultado": {
+  "ok": true,
+  "order_id": "2000017682228444",
+  "situacao_pedido": "paid",
+  "aberto_em": "2026-07-31T09:51:13.000-04:00",
+  "valor": 289.0,
+  "pago": 289.0,
+  "tags": [
+   "order_has_discount",
+   "paid",
+   "delivered"
+  ],
+  "cancelado_por": null,
+  "cancelado_porque": null,
+  "itens": [
+   {
+    "mlb": "MLB6758059126",
+    "titulo": "Bota Couro Atacama Horizon Bico Pvc Bracol Confortável Epi Marrom 41 Br",
+    "qtd": 1,
+    "unitario": 289.0
+   }
+  ],
+  "pagamentos": [
+   {
+    "id": 171369059218,
+    "estado": "approved",
+    "rotulo": "PAGO",
+    "explica": "o dinheiro entrou e continua com a gente",
+    "detalhe": "accredited",
+    "valor": 289.0,
+    "pago": 216.75,
+    "aprovado_em": "2026-07-31T09:51:50.000-04:00",
+    "meio": "bank_transfer"
+   }
+  ],
+  "devolvido": 0,
+  "reclamacao": {
+   "id": 5554536512,
+   "tipo": "mediations",
+   "estagio": "dispute",
+   "situacao": "closed",
+   "motivo_id": "PDD9947",
+   "desfecho": "no_bpp",
+   "fechado_por": "mediator",
+   "quem_ganhou": "vendedor",
+   "ml_cobriu": false,
+   "aberta_em": "2026-08-04T19:03:56.000-04:00",
+   "tem_devolucao": true
+  },
+  "produto": {
+   "estado": "INDEFINIDO",
+   "porque": "as marcas do pedido não dizem — conferir no painel do ML"
+  },
+  "reputacao": {
+   "sinais": [
+    "houve RECLAMAÇÃO — entra na taxa de reclamações da conta"
+   ],
+   "placar_da_conta": {
+    "nivel": "5_green",
+    "status": "platinum",
+    "reclamacoes": {
+     "period": "60 days",
+     "rate": 0.0042,
+     "value": 28
+    },
+    "cancelamentos": {
+     "period": "60 days",
+     "rate": 0,
+     "value": 0
+    },
+    "atrasos": {
+     "period": "60 days",
+     "rate": 0.0023,
+     "value": 15
+    },
+    "vendas": {
+     "period": "60 days",
+     "completed": 6214
+    }
+   },
+   "aviso": "O ML não diz se UMA venda derrubou a reputação — ele publica só o agregado de 60 dias. Os sinais acima são fatos deste pedido; o placar é a conta inteira."
+  }
+ }
 }
