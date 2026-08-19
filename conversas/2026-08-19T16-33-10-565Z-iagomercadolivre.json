@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-19T16:33:10.565Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "MLB4222433138",
   "titulo": "Luva Soldador Weld Master Alta Temperatura Até 500ºc 41cm",
@@ -14,6 +14,11 @@
    "quem": "Iago - Mercado Livre",
    "quando": "2026-08-19T16:33:10.565Z",
    "texto": "o tem Luva Soldador Weld Master Alta Temperatura Até 500ºc 41cm. SKU 64 está com os calculo dos créditos da nota fiscal de referencia incorretos. verifique pro favor e atualize.No meu calculo deu em torno de 6,19. Isso faz com que a margem vá para cerca de 8%"
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-19T16:39:29",
+   "texto": "Iago, o seu 6,19 esta CERTO — e essa e a boa e a ma noticia ao mesmo tempo.\n\nCERTO, E O APP JA USA. O precificador ja calcula credito de R$6,19 nesse SKU 64. Confere com a NF 209277 de 20/07 (VCH, 12 pares a R$48,08): ICMS interestadual de importado = 4% sobre 48,08 = R$1,92; PIS/COFINS 9,25% sobre o valor JA descontado o ICMS, (48,08 - 1,92) x 9,25% = R$4,27. Soma 6,19, na virgula. Entao no precificador nao ha o que atualizar.\n\nMAS VOCE ACHOU UM BURACO DE VERDADE, so que noutro lugar. Existe uma SEGUNDA tabela na casa (a tabela de custo/credito) e nela esse mesmo SKU esta com custo R$50,62 (a NF anterior, de 09/07 — nao pegou a de 20/07) e credito R$12,95, que e ICMS de 18% CHAPADO. Dezoito chapado e justamente o que a regra da casa proibe: credito de ICMS vem da NF real. Fui varrer e nao e so o seu SKU: 4.626 dos 4.637 SKUs dessa tabela estao com o credito de 18% chapado, e tres coisas vivas leem dali (o Dashboard, a lista de margens baixas e a auditoria de precos da Shopee). O precificador escapou porque usa outro caminho, o certo. Ja subi para o Marcelo com a lista.\n\nAGORA A MARGEM — aqui eu discordo, e vou mostrar a conta em vez de mandar acreditar. Reproduzi o seu numero: da 7,49%, que arredonda pros 'cerca de 8%' que voce falou. Voce calculou no preco de CAMPANHA (R$105,68), nao no cheio, e ai faltou UMA linha:\n\n  preco campanha            105,68\n  - taxa ML (12,68 + 16,15)  28,83\n  - custo                    48,08\n  - debito de imposto        27,04\n  + credito da compra         6,19\n  + credito de PIS/COFINS sobre a TAXA do ML   2,67   <-- esta faltou na sua\n  = lucro                    10,59  ->  margem 10,02%\n\nSem essa ultima linha da 7,49%. Com ela, 10,02%. No preco cheio de R$149,99 a margem e 24,43%.\n\nE ISSO IMPORTA MUITO NESSE ANUNCIO: a campanha esta cravada em R$105,68 e o preco que da exatos 10% e R$105,64. Ou seja, ele esta em cima da regua por 4 centavos. Se a sua conta estiver certa, ele esta a 7,5% e teria que SAIR do BOUW10.\n\nE POR QUE EU NAO FECHO A PORTA: se aquele credito de PIS/COFINS sobre a comissao e a tarifa do marketplace vale mesmo, isso e pergunta de contador e esta EM ABERTO com o Marcelo desde ontem — vale ~2 pontos em TODOS os anuncios, e aqui vale 2,53. Se o contador disser que nao credita, voce esta certo e este anuncio esta fora da regua. Nao descarte seu numero: ele e o cenario pessimista, e esta pendente de decisao, nao de calculo.\n\nNao mexi em preco nem em campanha — isso e da sessao que executa."
   }
  ]
 }
