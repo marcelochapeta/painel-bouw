@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-18T18:52:10.200Z",
- "estado": "respondido",
+ "estado": "novo",
  "contexto": {
   "mlb": "SHP18999689167",
   "titulo": "Tela Fibra de Vidro Reforço Cimenticia Alvenaria Fachada Impermeabilização  Malha 1 x 50m",
@@ -19,6 +19,14 @@
    "de": "robo",
    "quando": "2026-08-18T16:42:48",
    "texto": "O custo existe sim — R$207,68 — mas ele está marcado \"a validar\", e é por isso que aparece vazio pra você. Não é bug de tela, é uma trava de propósito, e nesse caso ela está certa.\n\nTela Fibra de Vidro Malha 1 x 50m (SKU 10034034166963)\n\nA NF 059215, de 15/06, traz R$195,00 com unidade \"RL\" — rolo. O problema: a nota não diz quantos metros tem o rolo, e o anúncio vende 50m. Se o rolo da nota for de 50m, o custo é 195,00 (207,68 com IPI) e a margem fica em 0,8% no preço de R$368,89. Se o rolo for de outra metragem, o custo muda tudo.\n\nFoi exatamente esse tipo de coisa que já mordeu a casa: o Eletrodo 5kg apareceu custando R$10,91, que era o preço de 1kg, quando o rolo custa R$54,55. Desde então, quando a nota vem em unidade de medida (rolo, kg, metro) e ninguém sabe a quantidade, o sistema segura em vez de chutar.\n\nO QUE DESTRAVA: me diz quantos metros vem no rolo da NF 059215 (dá pra ver na nota ou perguntar ao fornecedor). Com esse número eu fecho o custo na hora.\n\n⚠️ E olha isto antes: com R$207,68 esse anúncio dá 0,8% de margem — vende e não sobra nada. Se o rolo da nota for MENOR que 50m, o custo sobe e ele está no prejuízo. Vale conferir a metragem antes de mais alguma coisa, porque tem 4 unidades em estoque e ele pode estar sangrando."
+  },
+  {
+   "de": "pessoa",
+   "quem": "Ana - Shopee",
+   "quando": "2026-08-19T12:07:28.263Z",
+   "texto": "O rolo vem 50 metros e o preço dele é 207,68, aplica apenas para esse produto, os demais, teria que verificar melhor"
   }
- ]
+ ],
+ "_arq": "2026-08-18T18-52-10-200Z-anashopee.json",
+ "_sha": "cec0ae8b133034c17b73288364458bf2589be6e1"
 }
