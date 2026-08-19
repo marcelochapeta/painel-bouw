@@ -344,6 +344,29 @@ function _chip(e){ const x=CHAT_EST[e]||CHAT_EST.novo;
   return '<span style="font-size:.7rem;font-weight:700;color:'+x[1]+';border:1px solid '+x[1]+'55;'
     +'background:'+x[1]+'14;border-radius:999px;padding:1px 8px">'+x[0]+'</span>'; }
 
+// ⛔ FINALIZADO SAI DA FRENTE, E DÁ PARA FILTRAR POR PESSOA (dono, 19/08/2026):
+// *"os chats finalizados, coloca em uma aba 'finalizados' e tira ali da frente"* +
+// *"ai vc pode até criar filtro: iago, ana, Marcelo"*.
+// Motivo: a lista misturava o que precisa de ação com o que já morreu, e assunto fechado empurrava
+// o aberto para baixo. Junto com isso vale a distinção que ele mesmo levantou —
+// **"respondido" NÃO é "resolvido"**: só entra em Finalizados o que está `resolvido`, ou seja, a
+// causa acabou. Responder muda de quem é a vez de falar, não fecha o problema.
+var _chatAba="abertos", _chatQuem="todos";
+
+function _ehFinal(c){ return c.estado==="resolvido"; }
+function _pessoa(c){
+  const q=(c.quem||"").toLowerCase();
+  if(q.indexOf("iago")>=0) return "iago";
+  if(q.indexOf("ana")>=0) return "ana";
+  if(q.indexOf("marcelo")>=0) return "marcelo";
+  return "outros";
+}
+function _botao(id,txt,ativo,cor){
+  return '<button data-f="'+id+'" style="font:inherit;font-size:.76rem;font-weight:700;padding:5px 11px;'
+    +'border-radius:999px;cursor:pointer;border:1.5px solid '+(ativo?cor:"#e7e0d4")+';'
+    +'background:'+(ativo?cor:"#fff")+';color:'+(ativo?"#fff":"#7a6f5d")+'">'+txt+'</button>';
+}
+
 async function telaLista(doc){
   clearInterval(_chatTimer);
   doc.getElementById("bouw-volta").style.display="none";
@@ -353,23 +376,64 @@ async function telaLista(doc){
     +'border:none;background:#f5a623;color:#fff;cursor:pointer">+ novo assunto</button>';
   doc.getElementById("bouw-novo").onclick=function(){ telaNova(doc); };
   const cs=await listarConversas();
+
+  function pintar(){
+    const abertos=cs.filter(function(c){ return !_ehFinal(c); });
+    const finais =cs.filter(_ehFinal);
+    const base=(_chatAba==="abertos")?abertos:finais;
+    const lista=(_chatQuem==="todos")?base:base.filter(function(c){ return _pessoa(c)===_chatQuem; });
+
+    // contagem por pessoa sempre da ABA atual, senão o número engana
+    const cnt={iago:0,ana:0,marcelo:0};
+    base.forEach(function(c){ const p=_pessoa(c); if(cnt[p]!==undefined) cnt[p]++; });
+
+    var h='<div style="display:flex;gap:6px;margin-bottom:8px">'
+      +_botao("abertos","Abertos ("+abertos.length+")",_chatAba==="abertos","#f5a623")
+      +_botao("finalizados","Finalizados ("+finais.length+")",_chatAba==="finalizados","#6b7280")
+      +'</div>'
+      +'<div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:11px">'
+      +_botao("todos","todos ("+base.length+")",_chatQuem==="todos","#4a4336")
+      +_botao("iago","Iago ("+cnt.iago+")",_chatQuem==="iago","#2f6db3")
+      +_botao("ana","Ana ("+cnt.ana+")",_chatQuem==="ana","#a34ba3")
+      +_botao("marcelo","Marcelo ("+cnt.marcelo+")",_chatQuem==="marcelo","#2e7d4f")
+      +'</div>';
+
+    if(!lista.length){
+      h+='<div style="color:#7a6f5d;padding:22px 6px;text-align:center;line-height:1.6">'
+        +(_chatAba==="finalizados"?"Nada finalizado por aqui ainda."
+          :"Nenhum assunto aberto.<br><span style=\'font-size:.85rem\'>Achou um número errado? Abre um assunto — o anúncio que estiver na tela vai junto.</span>")
+        +'</div>';
+    } else {
+      h+=lista.map(function(c){
+        const ult=c.mensagens[c.mensagens.length-1];
+        const resp=ult&&ult.de==="robo";
+        const idx=cs.indexOf(c);
+        return '<div class="bouw-item" data-i="'+idx+'" style="border:1px solid '+(resp?"#2e7d4f55":"#eee6d8")+';border-radius:12px;'
+          +'padding:11px 13px;margin-bottom:9px;cursor:pointer;background:'+(resp?"#f3faf5":"#fff")+'">'
+          +'<div style="display:flex;gap:8px;align-items:center;margin-bottom:4px">'
+          +'<b style="font-size:.85rem">'+_esc(c.quem)+'</b>'+_chip(c.estado)
+          +'<span style="margin-left:auto;color:#9c9182;font-size:.72rem">'+_esc((c.aberto_em||"").slice(5,16).replace("T"," "))+'</span></div>'
+          +'<div style="font-size:.86rem;color:#4a4336">'+_esc(c.mensagens[0].texto).slice(0,110)+'</div>'
+          +(c.contexto&&c.contexto.mlb?'<div style="font-size:.72rem;color:#9c9182;margin-top:4px">'+_esc(c.contexto.mlb)+'</div>':'')
+          +(resp?'<div style="font-size:.75rem;color:#2e7d4f;font-weight:700;margin-top:5px">↩ o robô respondeu</div>':'')
+          +'</div>'; }).join("");
+    }
+    corpo.innerHTML=h;
+    corpo.querySelectorAll("button[data-f]").forEach(function(b){
+      b.onclick=function(){
+        const f=b.dataset.f;
+        if(f==="abertos"||f==="finalizados"){ _chatAba=f; } else { _chatQuem=f; }
+        pintar();
+      };
+    });
+    corpo.querySelectorAll(".bouw-item").forEach(function(el){
+      el.onclick=function(){ telaConversa(doc, cs[+el.dataset.i]); }; });
+  }
+
   if(!cs.length){ corpo.innerHTML='<div style="color:#7a6f5d;padding:26px 6px;text-align:center;line-height:1.6">'
     +'Nenhum assunto ainda.<br><span style="font-size:.85rem">Achou um número errado? Abre um assunto — '
     +'o anúncio que estiver na tela vai junto.</span></div>'; return; }
-  corpo.innerHTML=cs.map(function(c,i){
-    const ult=c.mensagens[c.mensagens.length-1];
-    const resp=ult&&ult.de==="robo";
-    return '<div class="bouw-item" data-i="'+i+'" style="border:1px solid '+(resp?"#2e7d4f55":"#eee6d8")+';border-radius:12px;'
-      +'padding:11px 13px;margin-bottom:9px;cursor:pointer;background:'+(resp?"#f3faf5":"#fff")+'">'
-      +'<div style="display:flex;gap:8px;align-items:center;margin-bottom:4px">'
-      +'<b style="font-size:.85rem">'+_esc(c.quem)+'</b>'+_chip(c.estado)
-      +'<span style="margin-left:auto;color:#9c9182;font-size:.72rem">'+_esc((c.aberto_em||"").slice(5,16).replace("T"," "))+'</span></div>'
-      +'<div style="font-size:.86rem;color:#4a4336">'+_esc(c.mensagens[0].texto).slice(0,110)+'</div>'
-      +(c.contexto&&c.contexto.mlb?'<div style="font-size:.72rem;color:#9c9182;margin-top:4px">'+_esc(c.contexto.mlb)+'</div>':'')
-      +(resp?'<div style="font-size:.75rem;color:#2e7d4f;font-weight:700;margin-top:5px">↩ o robô respondeu</div>':'')
-      +'</div>'; }).join("");
-  corpo.querySelectorAll(".bouw-item").forEach(function(el){
-    el.onclick=function(){ telaConversa(doc, cs[+el.dataset.i]); }; });
+  pintar();
 }
 
 function telaNova(doc){
