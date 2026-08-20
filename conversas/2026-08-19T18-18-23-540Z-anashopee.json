@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-19T18:18:23.540Z",
- "estado": "novo",
+ "estado": "em_analise",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -26,7 +26,5 @@
    "quando": "2026-08-20T18:23:35.773Z",
    "texto": "vc tem razão, já ajustei o preço na shopee verifique e tire da lista de régua baixa e se atente aos detalhes sempre que eu modificar na shopee, vc deve alterar o preço cheio atual aqui também, fique de olho e não deixe que esses erros aconteçam mais."
   }
- ],
- "_arq": "2026-08-19T18-18-23-540Z-anashopee.json",
- "_sha": "00bed83ca4049ef54fe1b00dfb159872ee85a900"
+ ]
 }
