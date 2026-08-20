@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-19T18:18:23.540Z",
- "estado": "respondido",
+ "estado": "novo",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -19,6 +19,14 @@
    "de": "robo",
    "quando": "2026-08-19T16:39:55",
    "texto": "Ana, sua regra esta certa, mas neste anuncio o app NAO esta com valor antigo — eu fui conferir na Shopee agora, ao vivo, e o preco de la e o mesmo que esta na tela.\n\nPerguntei direto na API da Shopee ha instantes, para o item 58204558822 (Kit 10 Protetor Auditivo Soft Slim):\n  preco cheio  : R$250,80\n  preco atual  : R$239,20\n  estoque      : 4\nE o app mostra exatamente R$239,20. Nao houve reajuste que ele tenha perdido.\n\nE ai vem a parte que precisa ser dita: a margem negativa nao e resquicio de preco velho, ela e de agora. A conta em cima dos R$239,20 que estao no ar hoje:\n\n  preco                       239,20\n  - taxa Shopee (30,4%)        72,64   (14% comissao + 5,5% servico + R$26 fixo)\n  = liquido                   166,56\n  - custo do kit              156,61\n  ... e o que sobra nao paga o imposto liquido  ->  margem -6,1%\n\nO custo de R$156,61 e o kit de 10 pela composicao do Tiny: R$15,661 a peca x 10.\n\nO duro: mesmo se voce vender no preco CHEIO de R$250,80, ainda da -3,2%. Este anuncio esta no vermelho em qualquer preco que esteja configurado hoje. Para empatar precisa de R$264,78, e para bater o piso de 10% da Shopee, R$321,44.\n\nSe voce reajustou foi em OUTRO anuncio, ou o reajuste nao chegou a ser salvo na Shopee — porque na Shopee, neste minuto, esta R$239,20. Se voce mexer agora, me avisa que eu confirmo na hora.\n\nSobre o principio, voce tem razao e eu quero deixar registrado: a tela nao le a Shopee ao vivo, ela le um retrato que e refeito algumas vezes por dia (o de hoje e das 10h53). Entao existe SIM uma janela em que um preco novo seu ainda nao apareceu — so que nao foi o caso aqui. Quando desconfiar, pode cobrar que eu consulto ao vivo, como fiz agora.\n\nNAO mexi no preco — quem altera anuncio e a outra sessao. O que fica para decidir e se sobe o preco ou se tira ele do ar, e isso ja esta encaminhado."
+  },
+  {
+   "de": "pessoa",
+   "quem": "Ana - Shopee",
+   "quando": "2026-08-20T18:23:35.773Z",
+   "texto": "vc tem razão, já ajustei o preço na shopee verifique e tire da lista de régua baixa e se atente aos detalhes sempre que eu modificar na shopee, vc deve alterar o preço cheio atual aqui também, fique de olho e não deixe que esses erros aconteçam mais."
   }
- ]
+ ],
+ "_arq": "2026-08-19T18-18-23-540Z-anashopee.json",
+ "_sha": "00bed83ca4049ef54fe1b00dfb159872ee85a900"
 }
