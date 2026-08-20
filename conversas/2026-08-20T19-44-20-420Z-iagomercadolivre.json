@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-20T19-44-20-420Z-iagomercadolivre.json",
+ "_sha": null,
+ "quem": "Iago - Mercado Livre",
+ "aberto_em": "2026-08-20T19:44:20.420Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": "MLB4373456443",
+  "titulo": "Kit 2 Luva Orange Palma Vulcanizada Obra Serviço Gerais Lixo",
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Iago - Mercado Livre",
+   "quando": "2026-08-20T19:44:20.420Z",
+   "texto": "Gostaria de entender porque o Kit 2 Luva Orange Palma Vulcanizada Obra Serviço Gerais Lixo está na lista de anuncio com margem desconhecida. Na precificação estava a 24,34, eu alterei para 26,2 que deu o calculo correto de  aproximadamente 10%. Pode recalcular e me explicar porque esse anuncio está na lista de margem desconhecida? sendo que voce encontrou a nota e fez um calculo, apesar nao está muito proximo."
+  }
+ ]
+}
