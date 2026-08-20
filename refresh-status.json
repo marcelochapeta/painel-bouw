@@ -1,5 +1,5 @@
 {
- "quando": "2026-08-19T09:39:38",
- "resultado": "publicado",
- "motivo": "atualizado e publicado"
+ "quando": "2026-08-20T13:30:48",
+ "resultado": "barrado",
+ "motivo": "o robô rodou, mas os dados vieram incompletos e ele preferiu MANTER o painel bom a publicar pela metade. [2026-08-20T13:30:03-03:00] RESOLVENDO dash incompleto (['shopee']) — rodada 1/3: re-puxando {'shopee'}"
 }
