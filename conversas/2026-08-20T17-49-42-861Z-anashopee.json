@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-20T17:49:42.861Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "SHP22894855747",
   "titulo": "Kit 50 Óculos Segurança Sky RJ CA 39878 EPI Incolor Fumê Proteção Lateral Uv Antirrisco Im",
@@ -20,6 +20,11 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-20T17:50:13.915Z",
    "texto": "Quanto de crédito você tá considerando pra esse produto?Kit 50 Óculos Segurança Sky RJ CA 39878 EPI Incolor Fumê Proteção Lateral Uv Antirrisco Im"
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-20T20:43:37",
+   "texto": "Ana, o app esta considerando R$16,78 de credito nesse Kit 50 Oculos Sky — mas eu preciso te dizer DE ONDE veio esse numero, porque ele nao e confiavel.\n\nEle nao veio da nota. Veio de uma MEDIA da casa (8,58% de ICMS) que o app usa quando nao consegue casar o produto com a nota fiscal de compra. Quebrado fica assim:\n  ICMS       8,86  (pela media de 8,58%, NAO pela nota)\n  PIS/COFINS 7,92\n  total     16,78  sobre um custo de R$103,25\n\nPor que isso importa: a media de 8,58% e quase sempre MENOR que a aliquota real, que costuma ser 12% ou 18%. Entao o credito de verdade provavelmente e MAIOR que 16,78 — e a margem que a tela mostra esta pior do que a realidade. Nao vou te dar o numero certo porque eu nao consegui provar qual e a aliquota deste item, e chutar aqui seria pior que dizer que nao sei.\n\nMAS ISSO NAO SALVA O ANUNCIO, e e por isso que eu nao posso so responder sua pergunta e ir embora. No preco de hoje (R$151,30, conferido ao vivo na Shopee agora):\n  preco             151,30\n  - taxa Shopee      49,51   (14% comissao + 5,5% servico + R$20 fixo = 32,7%)\n  = liquido         101,79\n  - custo           103,25\n  o custo sozinho ja e MAIOR que o liquido  ->  margem -12,43%\n\nRepara: o liquido nem cobre o custo, antes de qualquer imposto. Para isso virar 10% de margem o preco teria que ser R$235,59. Mesmo que o credito real fosse o dobro do que o app usa, nao chega perto de fechar essa conta.\n\nTem 2 unidades em estoque. Nao mexi no preco — quem altera anuncio e a outra sessao. Ja subi as duas coisas: o credito pela media (que afeta 36 anuncios da Shopee, nao so este) e o preco deste aqui."
   }
  ]
 }
