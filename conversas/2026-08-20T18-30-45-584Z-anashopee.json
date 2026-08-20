@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-20T18:30:45.584Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "SHP58204795787",
   "titulo": "Kit 3 Luva Danny Gladiador Látex Rugoso Térmica CA 8082 EPI Proteção Mecânica Construção C",
@@ -14,6 +14,11 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-20T18:30:45.584Z",
    "texto": "Esse você deve considerar 17,82 de custo que é o que você colocou ali, está correto, porém ele tem R$ 2,31 de crédito. Eu vou colocar o preço na Shopee de R$ 48,50 e vai ficar com margem de 10,9%, então absorva essas informações e deixe o caso como resolvido.\n\nKit 3 Luva Danny Gladiador Látex Rugoso \n10034034167875"
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-20T20:44:00",
+   "texto": "Ana, esse esta certo e voce pode considerar resolvido. Confirmado nas tres pontas:\n\nCUSTO: R$17,82 — bate com o que o app usa.\nCREDITO: voce disse R$2,31, o app calcula R$2,30 (ICMS 0,71 + PIS/COFINS 1,58). Um centavo de arredondamento. E aqui o credito veio da NOTA REAL, nao de media — entao e numero confiavel.\nPRECO: conferi ao vivo na Shopee agora e os R$48,50 ja estao no ar nas tres variacoes (P, M e G).\n\nA margem no motor da 11,78% — um pouco acima dos 10,9% que voce calculou. A diferenca e uma linha que passa despercebido: alem do credito da compra, a casa credita 9,25% de PIS/COFINS sobre a TAXA da Shopee tambem (R$1,51 aqui). A conta fechada:\n  preco            48,50\n  - taxa Shopee    16,37   (20% comissao + 5,5% servico + R$4 fixo = 33,8%)\n  - custo          17,82\n  - imposto liq     8,59   (debito 12,41 - credito 2,30 - 1,51 da taxa)\n  = lucro           5,72   ->  11,78%\n\nEsta ACIMA da regua de 10% dos dois jeitos de calcular, entao sai da lista com folga. O piso de 10% neste anuncio e R$46,40, ou seja voce tem R$2,10 de margem de manobra antes de encostar na regua.\n\nUma so ressalva, para voce nao ser pega de surpresa: a tela ainda vai mostrar o preco antigo (R$37,38) ate a proxima atualizacao do retrato da Shopee, que estou rodando agora. Quando terminar, ele aparece com os 48,50 e ja fora da lista."
   }
  ]
 }
