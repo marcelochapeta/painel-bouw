@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-20T19:44:20.420Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "MLB4373456443",
   "titulo": "Kit 2 Luva Orange Palma Vulcanizada Obra Serviço Gerais Lixo",
@@ -20,6 +20,11 @@
    "quem": "Iago - Mercado Livre",
    "quando": "2026-08-20T19:54:32.591Z",
    "texto": "mesma coisa com o Fita Zebrada Demarcação Sinalização 7cm X 200m Rolo 2un Amarelo/preto Zebrada. Não entendi porque está na lista de \"receita cega\""
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-20T20:37:34",
+   "texto": "Iago, os dois estao na lista pelo MESMO motivo, e nao e que faltou nota: e que a nota DISCORDA do custo que o app usa. Quando isso acontece o app se recusa a publicar uma margem, porque teria que escolher um dos dois numeros no chute. 'Margem desconhecida' aqui quer dizer 'custo em disputa', nao 'nao achei nada'.\n\n1) KIT 2 LUVA ORANGE (MLB4373456443)\n   app usa R$9,14  ·  a NF 214897 de 18/08 (VCH) reconstroi R$7,72  ·  diferenca +18,4%\n   A conta da nota: R$3,86 o par x 2 pares = 7,72. A nota e MAIS NOVA e mais BARATA que o custo do app.\n   O que isso significa pra voce: seja qual for o numero, seu preco esta bom.\n     a R$24,34 -> 10,35% (custo do app)  ou  16,18% (custo da nota)\n     a R$26,20 -> 14,12% (custo do app)  ou  19,54% (custo da nota)\n   Voce mudou para 26,20 e acertou. E se a nota estiver certa, esta ainda melhor do que voce calculou. Os 10% saem em R$24,18.\n\n2) FITA ZEBRADA 7cm x 200m 2un (MLB4291633869) — esta e SERIA, olha com atencao\n   app usa R$12,12  ·  a NF 373916 de 29/05 (PLASTCOR) reconstroi R$15,41  ·  diferenca -21,3%\n   Aqui a nota e mais CARA que o custo do app, e o motivo esta registrado: alguem TRAVOU a base em R$7,70 o rolo, e a nota da PLASTCOR diz R$8,05.\n     a R$32,80 -> 11,77% (custo do app)  mas  1,74% (custo da nota)\n     a R$35,00 -> 15,05% (custo do app)  mas  5,65% (custo da nota)\n   Ou seja: se a nota estiver certa, esse anuncio esta praticamente empatando, nao ganhando 11,77%. Para 10% de verdade o preco teria que ser R$37,82. E por isso que ele nao aparece com margem — a diferenca entre os dois numeros e a diferenca entre estar bem e nao estar.\n\nREPARA numa coisa util: os dois conflitos apontam para lados OPOSTOS. Na luva o app esta caro demais, na fita esta barato demais. E exatamente por isso que a lista existe em vez de o app escolher sozinho.\n\nO QUE DESTRAVA CADA UM:\n  - Luva Orange: confirmar se o par hoje custa R$3,86 (nota de 18/08) ou R$4,57 (o que o app guarda).\n  - Fita Zebrada: decidir se a base do rolo e R$7,70 (travado na mao) ou R$8,05 (nota PLASTCOR de 29/05). Esta e a mais urgente.\n  Me diz qual vale, ou fala com o Marcelo, que eu fecho os dois na hora.\n\nNAO mexi em preco nem em custo — os dois estao em conflito aberto e ja subiram para o Marcelo decidir."
   }
  ]
 }
