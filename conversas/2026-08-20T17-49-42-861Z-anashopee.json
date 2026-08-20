@@ -1,6 +1,6 @@
 {
  "_arq": "2026-08-20T17-49-42-861Z-anashopee.json",
- "_sha": null,
+ "_sha": "91a243606df4f121da2763245a60cd8e080961b1",
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-20T17:49:42.861Z",
  "estado": "novo",
@@ -16,6 +16,12 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-20T17:49:42.861Z",
    "texto": "consegue me tirar uma dúvida?"
+  },
+  {
+   "de": "pessoa",
+   "quem": "Ana - Shopee",
+   "quando": "2026-08-20T17:50:13.915Z",
+   "texto": "Quanto de crédito você tá considerando pra esse produto?Kit 50 Óculos Segurança Sky RJ CA 39878 EPI Incolor Fumê Proteção Lateral Uv Antirrisco Im"
   }
  ]
 }
