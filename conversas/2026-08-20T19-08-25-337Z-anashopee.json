@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-20T19:08:25.337Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "SHP58265543373",
   "titulo": "Kit Limpeza Sapato Ocupacional Antiderrapante Impermeável CA 45991 + Luva Látex Reforçada",
@@ -14,6 +14,11 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-20T19:08:25.337Z",
    "texto": "Kit Limpeza Sapato Ocupacional Antiderra\n\nVocê está considerando que é 48,18 de custo e R$ 9,27 de crédito? \n\nAcabei de atualizar o preço na shopee e coloquei para 120,10 margem foi para 10,0%. Lembrando, já atulizei na shopee, tire da lista de abaixo da régua."
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-20T20:45:16",
+   "texto": "Ana, voce esta certa e o app esta errado — mas nao do jeito que voce perguntou. Ele NAO esta considerando R$9,27 de credito. Ele esta considerando ZERO.\n\nFui atras e o seu numero e que esta certo. Este kit e uma montagem de duas pecas, e cada uma credita de um jeito:\n  Sapato Ocupacional CA 45991 (SKU 912254)  custo 42,20  ICMS 12%  ->  credito 8,50\n  Luva Ranhurada (SKU 333)                  custo  6,34  ICMS  4%  ->  credito 0,82\n  CUSTO TOTAL 48,54   ·   CREDITO TOTAL 9,32\nSeu 9,27 contra meus 9,32 — cinco centavos de diferenca. Voce acertou.\n\nPOR QUE O APP ZEROU: o custo dele vem de um caminho (ele reconstroi somando as duas pecas, e por isso acerta os 48,54) e o credito vem de OUTRO caminho, que procura o SKU do kit numa tabela. Esse SKU do kit nao esta nessa tabela — ai o credito volta zero, calado, e a margem despenca. Custo por uma porta, credito por outra: e um problema conhecido da casa e voce acabou de achar mais um caso dele.\n\nO QUE MUDA COM O NUMERO CERTO, no seu preco novo de R$120,10 (conferi ao vivo, ja esta no ar):\n  app hoje (credito zero)   ->  margem 1,20%\n  com o credito certo 9,32  ->  margem 8,96%\n\nSete pontos e meio de diferenca. So que — e aqui eu preciso ser chato — 8,96% ainda nao e 10%. Os R$120,10 dao 8,96%, e para bater a regua o preco teria que ser R$122,80. Faltam R$2,70.\n\nA conta inteira, para voce conferir:\n  preco            120,10\n  - taxa Shopee     43,41   (14% comissao + 5,5% servico + R$20 fixo = 36,1%)\n  - custo            48,54\n  - imposto liquido  17,39   (debito 30,73 - credito 9,32 - 4,02 de PIS/COFINS sobre a taxa)\n  = lucro            10,76   ->  8,96%\n\nENTAO NAO VOU TIRAR DA LISTA AINDA, e nao e teimosia: com R$122,80 ele sai por merito. Se voce subir esses R$2,70 eu confirmo na hora e ele sai. Se preferir manter 120,10, ele fica na lista marcado como quase-la, o que e bem diferente do 1,2% que aparece hoje.\n\nO conserto do credito zerado e no motor e ja subiu para o Marcelo — nao e coisa que eu mexa por conta propria, porque mexer nisso aumenta margem em varios anuncios de uma vez."
   }
  ]
 }
