@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-20T15-13-03-150Z-iagomercadolivre.json",
+ "_sha": null,
+ "quem": "Iago - Mercado Livre",
+ "aberto_em": "2026-08-20T15:13:03.150Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": "MLB7419569068",
+  "titulo": "Botina Taloneira Bidensidade Reforçada Palmilha Pu Anatômica Preto 44",
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Iago - Mercado Livre",
+   "quando": "2026-08-20T15:13:03.150Z",
+   "texto": "vamo falar do grupo de anuncio 1143954332681810, vou pegar de exemplo o esse anuncio> MLB5064561593\n\nesse anuncio é um kit de dois produtos, a palmilha e a botina. notas de referencia: 087118  e 416095.(essas notas talvez não tenham todas as variações).\n \nmas segundo essas notas o valor total, de custos é 46.03 (somando os dois produtos)\ncreditos icms 5.5257 (somando os dois produtos)\nmesma coisa para pis 0.6675\ne cofins 3.0807\n\ntem outras notas que eu encontrei relacionado ao produto como: 089918.\n\nrecalcule e veja que atualmente está com a margem incorreta, segundo as notas e cálculos , a margem deve está acima de 5%\npois o produto está sem nenhuma promoção, a 78,99 (de proposito)"
+  }
+ ]
+}
