@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-20T18:49:12.306Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "SHP58204558822",
   "titulo": "Kit 10 Protetor Auditivo Abafador Ruído Auricular Soft Slim CA 33135 Proteção Conforto Som",
@@ -14,6 +14,11 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-20T18:49:12.306Z",
    "texto": "Kit 10 Protetor Auditivo Abafador Ruído \n\nConsidere.\nCusto 110,8\nCrédito: R$ 20,30\n\nR$ 306,80 - preço atual - Foi atualizado na Shopee, peço que tire da lista com a régua baixa."
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-20T20:47:04",
+   "texto": "Ana, duas coisas, e as duas precisam de voce.\n\n1) O PRECO DE R$306,80 NAO ESTA NA SHOPEE. Acabei de perguntar na API agora mesmo, direto:\n     preco cheio : R$250,80\n     preco atual : R$239,20\n     estoque     : 4\n   Nao e a tela desatualizada — e a Shopee respondendo neste minuto. E a segunda vez neste anuncio (ontem tambem). Isso me faz achar que a alteracao esta esbarrando em alguma coisa na hora de salvar: pode ser que esteja mexendo no preco cheio e o desconto ativo esteja puxando de volta para 239,20, ou que exista uma promocao/campanha ativa segurando o teto. Consegue abrir o anuncio e ver se tem promocao ligada nele? Se tiver, o preco so sobe de verdade depois de tirar ou ajustar a promocao. Eu nao mexo em anuncio, mas se me disser o que aparece ai eu te digo onde esta travando.\n\n2) O CUSTO DE R$110,80 — descobri de onde ele veio, e ele esta velho. R$110,80 e exatamente 10 x (R$10,10 + IPI de 9,75%) = 10 x R$11,08. E o R$10,10 foi o preco da Camper de janeiro a setembro de 2025. De la para ca subiu varias vezes.\n\n   O historico da peca (SKU 800200C, ABAFADOR CONCHA C200 SOFT SLIM), na Camper:\n     2025 (jan-set)  R$10,10\n     nov/2025        R$11,13\n     mai/2026        R$13,69\n     jul/2026        R$14,27\n     05/08/2026      R$14,27   <- NF 077536, 110 unidades, a ultima compra de verdade\n   Com IPI de 9,75%: 14,27 + IPI = R$15,66 a peca. Vezes 10 = R$156,61, que e o que o app usa.\n\n   Existe uma nota de 13/08 a R$23,49, mas eu NAO usei: sao 10 unidades compradas de um fornecedor avulso (Tecnitainer), oito dias depois de uma compra de 110 na Camper. Isso e compra de emergencia, nao e o preco de reposicao. Se eu usasse ela o custo iria para R$234,90 e ficaria pior ainda.\n\n   Entao o custo certo hoje e R$156,61, nao 110,80. Se voce tiver uma cotacao ou nota NOVA que traga a peca por R$11,08, me manda o numero da nota que eu corrijo na hora — voce pode ter uma informacao que eu nao tenho. Mas pelo que esta registrado aqui, 110,80 e preco de 2025.\n\nO QUE ISSO DA HOJE, no preco que esta no ar (R$239,20):\n   preco             239,20\n   - taxa Shopee      72,64   (30,4%)\n   - custo           156,61\n   - imposto liquido  24,45\n   = prejuizo        -14,50   ->  margem -6,06%\n\nE POR ISSO NAO TIRO DA LISTA. Nao e implicancia: com o preco que esta la, o anuncio perde R$14,50 por venda. Se voce conseguir subir para R$306,80 de verdade, a margem vai para perto de 7%; para bater os 10% precisaria de R$321,44. Assim que o preco novo entrar na Shopee eu confirmo e tiro na mesma hora.\n\nResumindo o que preciso de voce: (a) ver se tem promocao travando o preco nesse anuncio, e (b) o numero da nota, se voce tiver uma com a peca a R$11,08."
   }
  ]
 }
