@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-19T18:18:23.540Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -25,6 +25,11 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-20T18:23:35.773Z",
    "texto": "vc tem razão, já ajustei o preço na shopee verifique e tire da lista de régua baixa e se atente aos detalhes sempre que eu modificar na shopee, vc deve alterar o preço cheio atual aqui também, fique de olho e não deixe que esses erros aconteçam mais."
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-20T20:47:33",
+   "texto": "Ana, sobre a regra que voce cravou — 'sempre que eu modificar na Shopee, voce deve atualizar o preco aqui tambem' — eu aceito e ela virou tarefa minha, nao promessa. O retrato da Shopee esta sendo repuxado agora e vou passar a repuxar em toda rodada em que voce disser que mexeu no preco, antes de responder qualquer coisa. Assim a tela nunca mais discute com voce usando numero velho.\n\nE ela ja provou valor hoje: dos quatro precos que voce mexeu, TRES estavam certos e a tela e que estava atrasada. Conferi um por um ao vivo na Shopee:\n   Kit 3 Luva Danny        R$48,50  ja no ar  ->  margem 11,78%, ACIMA da regua, sai da lista\n   Kit Limpeza Sapato     R$120,10  ja no ar  ->  falta R$2,70 para os 10% (detalhei no outro chamado)\n   Kit 5un Fita Zebrada    R$78,90  ja no ar  ->  sua decisao de segurar abaixo de 80 esta certa e eu medi\nNesses tres voce estava com a razao e o app e que estava velho.\n\nMAS ESTE AQUI, o Kit 10 Protetor Auditivo, continua em R$239,20. Perguntei na API agora ha pouco e a Shopee respondeu preco cheio 250,80, preco atual 239,20, estoque 4. Nao e a tela atrasada — e a Shopee dizendo isso neste minuto, e e a segunda vez.\n\nPor isso eu nao consigo tirar este da lista de regua baixa: no preco que esta la ele perde R$14,50 por venda (-6,06%). Respondi no chamado novo com o detalhe e com duas perguntas praticas — a principal e se tem alguma promocao ativa nesse anuncio segurando o preco, porque isso explicaria a alteracao nao pegar.\n\nSobre 'nao deixe que esses erros aconteçam mais': anotado, e o mecanismo esta rodando. Mas eu preciso ser honesto numa parte — ontem eu nao errei nesse anuncio. Eu conferi ao vivo antes de responder e o preco era o mesmo que a tela mostrava. O que faltou de verdade foi eu ter dito isso de um jeito mais util: em vez de so provar que a tela estava certa, eu devia ter perguntado logo por que a sua alteracao nao estava pegando. E o que estou fazendo agora."
   }
  ]
 }
