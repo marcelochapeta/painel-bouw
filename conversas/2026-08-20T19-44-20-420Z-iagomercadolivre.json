@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-20T19:44:20.420Z",
- "estado": "novo",
+ "estado": "em_analise",
  "contexto": {
   "mlb": "MLB4373456443",
   "titulo": "Kit 2 Luva Orange Palma Vulcanizada Obra Serviço Gerais Lixo",
@@ -43,7 +43,5 @@
    "quando": "2026-08-21T14:17:43.994Z",
    "texto": "me passa o número da nota da ANKARA"
   }
- ],
- "_arq": "2026-08-20T19-44-20-420Z-iagomercadolivre.json",
- "_sha": "40dec4fbc1459446dd6f59995f84e03a6c033ead"
+ ]
 }
