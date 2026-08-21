@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-21T14-13-12-069Z-iagomercadolivre.json",
+ "_sha": null,
+ "quem": "Iago - Mercado Livre",
+ "aberto_em": "2026-08-21T14:13:12.069Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": null,
+  "titulo": null,
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Iago - Mercado Livre",
+   "quando": "2026-08-21T14:13:12.069Z",
+   "texto": "sobre o item Kit 10 Jogo Broca Aço Rápido 4mm Hss Alumínio Metal está na lista de fora de central de promoções, voce viu que pode entrar em promoção. Sim, verifique e não tem promoção mas, o desconto está travado. as promoções não pode ser ajustadas. O BOUW10 está em 78,20 travado"
+  }
+ ]
+}
