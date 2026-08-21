@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-21T14:13:12.069Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -25,6 +25,11 @@
    "quem": "Iago - Mercado Livre",
    "quando": "2026-08-21T15:08:27.666Z",
    "texto": "o preço base está a 115,10. e o desconto está travado em 33% que no BOUW10 resulta em 78,20. nao da pra alterar isso, nao é ajustável ou sugerido, o desconto minimo é 33% travado. não só o BOUW10 mas todas as promoções."
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-21T12:16:49",
+   "texto": "Iago, voce esta certo e eu estava errado. E o erro foi meu de metodo, nao de conta — eu medi UMA vez e tratei como se fosse verdade.\n\nFui medir de novo depois da sua mensagem e o mesmo pedido, com os mesmos parametros, devolve DOIS tetos diferentes conforme a hora que voce pergunta. Doze chamadas identicas, uma a cada 3 segundos, entre 12:13:59 e 12:14:41:\n\n  12:13:59  teto 103,59   sugerido 97,84\n  12:14:03  teto 103,59\n  12:14:08  teto 103,59\n  12:14:11  teto 103,59\n  12:14:15  teto  78,19   sugerido 78,19   <-- o SEU numero\n  12:14:19  teto 103,59\n  12:14:22  teto  78,19\n  12:14:26  teto  78,19\n  12:14:30  teto  78,19\n  12:14:34  teto 103,59\n  12:14:37  teto 103,59\n  12:14:41  teto 103,59\n\nOito vezes 103,59 e quatro vezes 78,19, em 45 segundos. Nao e o teto 'mudando ao longo do dia' — e o ML respondendo coisas diferentes para a mesma pergunta, de um segundo para o outro.\n\nE OS 78,19 SAO EXATAMENTE O QUE VOCE VE. Voce falou 78,20 e o desconto travado em 33%; a leitura baixa da 78,19, que e 32,07% de desconto. E repara num detalhe que fecha o seu argumento: nessa leitura o teto e o sugerido sao O MESMO NUMERO (78,19 e 78,19). Quando teto e sugerido coincidem, nao ha faixa nenhuma para mexer — e literalmente travado, como voce disse. Na leitura alta eles sao diferentes (103,59 e 97,84) e ai parece ajustavel.\n\nO QUE ISSO SIGNIFICA NA PRATICA:\n\n  a 103,59 -> margem 10,04%   (cabe na regua)\n  a  78,19 -> margem  0,33%   (nao cabe, e praticamente vender de graca)\n\nEntao a resposta certa e: NAO ENTRA. Enquanto o ML devolver 78,19 em qualquer das leituras, entrar na BOUW10 e apostar num teto que pode nao existir na hora de aplicar. Retiro o que eu disse ontem sobre 'cabe por 8 centavos' — aquilo foi baseado numa leitura que saiu cara-ou-coroa.\n\nE A REGRA QUE EU VOU PASSAR A USAR, porque isto e maior que este anuncio: medir o teto UMA vez nao basta. Tem que medir varias e ficar com o MENOR. Se o pior teto nao respeita a regua, nao entra. A lista de 'pode entrar em promocao' que a casa gera hoje le uma vez so por anuncio — ou seja, ela pode estar chamando de 'pode entrar' um monte de anuncio que caiu na leitura boa por sorte. Ja mandei isso para o Marcelo, porque conserto e no gerador da lista, nao aqui no chat.\n\nObrigado por insistir. Se voce tivesse aceitado a minha resposta de ontem, esse anuncio provavelmente entraria na campanha a 0,33%."
   }
  ]
 }
