@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-20T19:37:18.985Z",
- "estado": "novo",
+ "estado": "em_analise",
  "contexto": {
   "mlb": "SHP58201857494",
   "titulo": "Kit 5un Fita Zebrada Plastcor 70mm x 200m Preta Amarela Sinalização Segurança Isolamento O",
@@ -26,7 +26,5 @@
    "quando": "2026-08-21T13:24:14.068Z",
    "texto": "você precisa verificar essa informação novamente do ST a nota é 373916, eu olhei aqui e não encontrei ST nesse produto. Reveja suas informações."
   }
- ],
- "_arq": "2026-08-20T19-37-18-985Z-anashopee.json",
- "_sha": "76a1f6df62e4c7afcd0fa5427c58e661f868d725"
+ ]
 }
