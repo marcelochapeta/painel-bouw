@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-20T19:08:25.337Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "SHP58265543373",
   "titulo": "Kit Limpeza Sapato Ocupacional Antiderrapante Impermeável CA 45991 + Luva Látex Reforçada",
@@ -31,6 +31,11 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-21T12:53:13.244Z",
    "texto": "outro detalhe, isso serve para o Mercado Livre também"
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-21T10:29:45",
+   "texto": "Ana, incoerencia justa e eu te devo a explicacao. Os dois numeros saem da MESMA conta — o que muda e um dado que entra nela, e e justamente o dado quebrado que eu te contei.\n\n   botao '10%' do app diz R$142,74  ->  ele calcula com credito ZERO\n   eu disse                R$122,80  ->  eu calculei com o credito certo, R$9,32\n\nNao sao duas contas brigando. E a mesma conta rodando duas vezes, uma com o credito zerado e outra com o credito de verdade. Confirmei isso: quando eu forco credito zero na formula, ela devolve exatamente 142,74, no centavo.\n\nE VOCE ACABOU DE ACHAR UMA COISA PIOR DO QUE EU TINHA VISTO. Eu te falei que o credito zerado fazia a MARGEM aparecer errada na tela. Voce mostrou que ele tambem contamina a SUGESTAO DE PRECO — e isso e muito mais grave, porque margem errada e informacao ruim, mas sugestao de preco errada faz voce AGIR errado. O botao esta te mandando cobrar R$142,74 num produto que fecha os 10% com R$122,80. Sao quase R$20 a mais. Se voce tivesse obedecido o botao, ia perder venda achando que estava protegendo margem.\n\nEntao, para nao ficar duvida de qual numero usar: neste produto, o certo e R$122,80. O 142,74 esta inflado porque a conta dele acha que voce nao tem credito nenhum, e voce tem R$9,32 (sapato 42,20 a 12% de ICMS + luva 6,34 a 4%).\n\nSOBRE 'ISSO SERVE PARA O MERCADO LIVRE TAMBEM' — voce tem razao e eu fui conferir. O credito sai da mesma fonte nos dois canais, entao o botao do ML herda o mesmo problema. Levantei quantos anuncios VIVOS hoje estao com credito vindo de nota errada: 15 no Mercado Livre e 9 na Shopee. Em cada um deles, tanto a margem quanto a sugestao de preco estao contaminadas.\n\nO QUE FAZER ATE CONSERTAR: nos anuncios que estao com esse problema, nao siga o botao dos 10% — me pergunta, que eu calculo com o credito certo. Nao e para voce desconfiar de tudo, e coisa de dois punhados de anuncios, e eu ja mandei a lista para o Marcelo justamente para nao virar 'desconfie de tudo'.\n\nEu nao mexo no motor por conta propria porque um ajuste desses muda a margem de dezenas de anuncios de uma vez, e isso tem que passar pelo Marcelo. Mas o achado e seu, esta registrado com seu nome, e o problema da sugestao de preco eu so soube porque voce cobrou a incoerencia em vez de deixar passar."
   }
  ]
 }
