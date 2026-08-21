@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-20T19:44:20.420Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "MLB4373456443",
   "titulo": "Kit 2 Luva Orange Palma Vulcanizada Obra Serviço Gerais Lixo",
@@ -42,6 +42,11 @@
    "quem": "Iago - Mercado Livre",
    "quando": "2026-08-21T14:17:43.994Z",
    "texto": "me passa o número da nota da ANKARA"
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-21T11:27:23",
+   "texto": "E a NF 019426. Segue tudo o que tenho dela, para voce achar no Tiny e conferir por conta propria:\n\n  NF          019426\n  data        02/06/2026\n  emitente    ANKARA ENGENHARIA LTDA\n  item        FITA ZEBRADA  200MTS  PRETO/AMARELO  PLASTCOR - 1\n  valor       R$12,90 por unidade\n  quantidade  11\n  NCM         3918.90.00\n  id no Tiny  nota 993640765  ·  item 941880949\n\nE O QUE ME FEZ DESCARTAR ELA — corrijo uma coisa que eu te falei antes. Ontem eu disse 'CFOP 1202'; isso eu tinha lido de uma anotacao antiga no cadastro. Fui na nota mesmo agora e a prova e outra, mais direta: o campo de finalidade da NFe esta como 4, que quer dizer DEVOLUCAO. As tres compras da PLASTCOR do mesmo produto estao todas com finalidade 1, que e nota normal.\n\n  02/06/2026  NF 019426  ANKARA     R$12,90   11 un   finalidade 4  <- devolucao\n  29/05/2026  NF 373916  PLASTCOR   R$ 7,80   80 un   finalidade 1  <- compra\n  22/10/2025  NF 356692  PLASTCOR   R$ 7,46  120 un   finalidade 1  <- compra\n  06/03/2025  NF 337207  PLASTCOR   R$ 7,46  120 un   finalidade 1  <- compra\n\nTem outro detalhe que reforca: na linha da ANKARA a descricao do item e a descricao do NOSSO cadastro ('...PLASTCOR - 1', com o sufixo do nosso SKU), e nao a descricao de um fornecedor. Isso e cara de mercadoria nossa voltando, nao de compra.\n\nSe voce abrir a nota e ela nao for devolucao, me fala que eu refaco a conta na hora — nesse caso o custo passa a ser R$12,90 e o kit de 2 vai para uns R$25,80, e ai o anuncio esta bem pior do que qualquer um dos dois numeros que discutimos ontem.\n\nContinuo esperando o seu ok nos dois custos: Luva Orange 9,14 -> 7,72 e base da Fita Zebrada 7,70 -> 8,05."
   }
  ]
 }
