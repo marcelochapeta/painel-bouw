@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-21T16:25:20.278Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "MLB6539159260",
   "titulo": "Capacete C/ Suporte E Jugular + Abafador Ouvido Acoplar 18db Azul",
@@ -14,6 +14,11 @@
    "quem": "Iago - Mercado Livre",
    "quando": "2026-08-21T16:25:20.278Z",
    "texto": "sobre o grupo de anuncio CAPACETE AVANT CAMPER COM ABAFADOR C200 15DB temos problemas, nao foi encontrado uma nota de referencia porque o produto é um kit composto por 3 produtos:\nCAPACETE AVANT CAMPER - SKU 800108P\nABAFADOR ACOPLAR AUDITIVO PARA CAPACETE C200 15DB - SKU 800202C\nJUGULAR CAMPER - SKU 800122\n\nas notas que utilizei (nao sei se são as mais recentes) foram:\n064712 ,077536  e 075460.\n\ncom base nisso calcule novamente, vai chegar na conclusão que as variações estão entre 5% a 8%.\n\najustei o preço base de todas as variações para 78,99 para ter mais espaço para desconto. Isso só vai ter efeito quando a promoção BOUW10 encerrar."
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-21T13:33:09",
+   "texto": "Iago, refiz a conta pelos tres componentes e a gente esta certo nos DOIS — so que em precos diferentes, e a sua propria mensagem explica por que.\n\nSEUS 5% a 8%: e o preco da CAMPANHA, que e o que esta valendo agora.\n  na BOUW10, a R$62,53  ->  7,19%\n  na BOUW10, a R$62,82  ->  7,45%\nBate com a sua faixa. Enquanto a BOUW10 estiver rodando, essas sete variacoes estao ABAIXO da regua de 10%.\n\nO QUE VOCE ACABOU DE FAZER: conferi ao vivo no ML e as sete ja estao com base R$78,99 (a tela ainda mostra 65,90 porque o retrato e das 11h04). A R$78,99 a margem fica em 18,9% a 21,0%, dependendo da variacao. Entao o seu ajuste resolve — quando a BOUW10 encerrar, como voce mesmo disse.\n\nE OS R$78,99 ESTAO CERTISSIMOS, por um motivo que talvez voce nem tenha usado: a R$78,99 a taxa do ML e R$18,03; a R$79,00 ela pula para R$25,23. Um centavo custa R$7,20 e derruba a margem de 18,93% para 10,66%. Voce parou no lugar exato.\n\nSOBRE AS NOTAS — voce acertou duas de tres:\n  ABAFADOR 800202C   NF 077536 (05/08)  R$21,81  <- e a mais recente mesmo, acertou\n  JUGULAR  800122    NF 075460 (03/06)  R$ 2,44  <- e a mais recente mesmo, acertou\n  CAPACETE 800108P   NF 064712 e de 24/06/2025, R$7,84. A mais nova e a NF 072407, de 25/02/2026, a R$8,24.\n\nMas repara: o app nao usa nem 7,84 nem 8,24 no capacete. Ele usa R$9,85, porque em anuncio com variacao a casa manda usar o MAIOR custo da grade — o casco Plastcor e o mais caro e todas as cores herdam ele. E proposital, para nao subestimar. Por isso o custo do kit fica R$36,23 (9,85 + 23,94 do abafador com IPI + 2,44 da jugular) e nao os R$34,22 que sairiam das suas notas.\n\nDUAS COISAS ERRADAS QUE ACHEI E JA SUBI:\n1) Uma variacao esta com custo diferente das outras seis: a 10034034166276 (MLB6539159258) esta com R$35,02, que e o valor ANTIGO, de quando o kit era contado sem a jugular. As outras seis ja estao com 36,23. Alguem corrigiu seis e esqueceu uma.\n2) O credito varia entre variacoes iguais: 8,76 na maioria, 9,18 numa e 9,27 noutra. Mesma composicao tinha que dar o mesmo credito. Alem disso o abafador esta creditando pela media da casa (8,58%) em vez dos 12% que as outras duas pecas creditam — provavelmente porque o custo dele esta gravado com IPI embutido e o buscador nao acha nota com esse valor.\n\nNenhuma das duas muda a sua conclusao, mas as duas mexem na margem exibida. Nao mexi em custo — e decisao sua e do Marcelo, e eu ainda estou esperando o seu ok nos outros dois (Luva Orange e Fita Zebrada).\n\nAh, e o filtro novo de devolucao ja trabalhou aqui: o abafador tem uma nota de R$29,65 e a jugular uma de R$3,44 que sao DEVOLUCAO, e as duas foram ignoradas. Se a gente pegasse a mais recente sem olhar, o custo do kit subiria uns R$8 a toa."
   }
  ]
 }
