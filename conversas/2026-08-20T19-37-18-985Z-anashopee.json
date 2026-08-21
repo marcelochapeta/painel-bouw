@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-20T19:37:18.985Z",
- "estado": "respondido",
+ "estado": "novo",
  "contexto": {
   "mlb": "SHP58201857494",
   "titulo": "Kit 5un Fita Zebrada Plastcor 70mm x 200m Preta Amarela Sinalização Segurança Isolamento O",
@@ -19,6 +19,14 @@
    "de": "robo",
    "quando": "2026-08-20T20:46:07",
    "texto": "Ana, sua leitura da taxa esta CERTA e eu medi para te dar os numeros. Mas tem uma coisa embaixo desse anuncio que eu nao consigo fechar, e preciso te contar em vez de simplesmente tirar da lista.\n\nPRIMEIRO, VOCE ESTA CERTA NA TAXA — e o efeito e pior do que voce descreveu:\n  R$78,90 -> taxa 24,12 (30,6%)  ·  liquido 54,78\n  R$79,99 -> taxa 24,40 (30,5%)  ·  liquido 55,59\n  R$80,00 -> taxa 31,60 (39,5%)  ·  liquido 48,40\nUM CENTAVO de 79,99 para 80,00 custa R$7,20 de taxa, porque a comissao cai de 20% para 14% mas a taxa fixa pula de R$4 para R$16 — e o pulo do fixo e maior que a economia da comissao. E nao melhora logo: so passando de R$90 o liquido volta a ser o que era em 78,90. Segurar em 78,90 foi a decisao certa e tem prova.\n\nAGORA A PARTE QUE ME TRAVA. No motor, a margem a R$78,90 nao da 9,9% — da 0,35%. E a diferenca esta num lugar so: o IMPOSTO DE SAIDA.\n\nEste produto e ST (substituicao tributaria). Hoje o app faz assim:\n  na COMPRA: nao credita ICMS (porque em ST o imposto ja foi recolhido antes)  -> credito so 3,72, de PIS/COFINS\n  na VENDA : cobra os 18% de ICMS assim mesmo                                   -> debito 20,19\nOu seja, ele paga o ICMS na saida mas nao aproveita nada na entrada. Isso come R$14,24 e derruba a margem para 0,35%.\n\nSe estiver certo que produto ST tambem NAO tem debito de ICMS na venda (que e o que eu esperaria, ja que o imposto foi pago la atras), a margem a R$78,90 seria 16,68% — e ai voce esta muito mais que certa e o anuncio esta otimo.\n\nEU NAO SEI QUAL DOS DOIS VALE, e nao vou chutar. E pergunta de contador, e ja esta na fila do Marcelo junto com outra do mesmo tipo. O que eu sei e o tamanho: sao 16 anuncios da Shopee em ST, e para todos eles a resposta muda a margem em uns 16 pontos.\n\nENTAO: nao tiro da lista ainda, mas tambem nao e para voce mexer no preco. Se eu tirasse agora estaria apostando numa resposta que nao tenho, e se voce subir o preco por causa de um numero que pode estar errado, perde venda a toa. O certo e esperar a resposta — e ela vale para os 16 de uma vez.\n\nUma coisa voce pode conferir e que ajudaria muito: esse Kit 5un e mesmo ST na nota da PLASTCOR? Se voce tiver a nota ai e ela nao for ST, o problema e outro (o app te classificou errado) e ai eu resolvo hoje mesmo, sem depender de contador.\n\nAh, e confirmei ao vivo: os R$78,90 ja estao no ar na Shopee."
+  },
+  {
+   "de": "pessoa",
+   "quem": "Ana - Shopee",
+   "quando": "2026-08-21T13:24:14.068Z",
+   "texto": "você precisa verificar essa informação novamente do ST a nota é 373916, eu olhei aqui e não encontrei ST nesse produto. Reveja suas informações."
   }
- ]
+ ],
+ "_arq": "2026-08-20T19-37-18-985Z-anashopee.json",
+ "_sha": "76a1f6df62e4c7afcd0fa5427c58e661f868d725"
 }
