@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-21T16-57-42-043Z-anashopee.json",
+ "_sha": null,
+ "quem": "Ana - Shopee",
+ "aberto_em": "2026-08-21T16:57:42.043Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": "SHP58204793814",
+  "titulo": "Kit 4 Fita Perfurada Aço Galvanizado 17 ou 19mm x 30m Fixação Tubo Estrutura Construção Hi",
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Ana - Shopee",
+   "quando": "2026-08-21T16:57:42.043Z",
+   "texto": "Adicione pra mim no campo da Shopee onde está escrito Dashboard, lá na aba \"reputura de estoque\". No mercado livre é considerado a rupturas de estoque com base no full, eu entendo que a Shopee não tem full, e por esse motivo eu quero que você pegue da lista de anúncios mesmo, veja quais itens vendiam bem e agora não vende pq acabaram os estoques, faça dois campos um chamado \"ruptura de estoque\" que é justamente isso, todos os itens que vendia bem e parou pq acabou estoque, mesmo que tenham produtos que é variação, você precisa identificar isso pra mim, exemplo: parou de vender a variação de número 39 de uma bota X (ai vc vai saber que é 1 só número dentro da variação e que teve ruptura.)  o outro campo vão ser \"geral\" que é todos os produtos que estão sem estoques o de baixo e grande giro."
+  }
+ ]
+}
