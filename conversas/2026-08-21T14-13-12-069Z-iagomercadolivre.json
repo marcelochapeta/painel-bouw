@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-21T14:13:12.069Z",
- "estado": "novo",
+ "estado": "em_analise",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -26,7 +26,5 @@
    "quando": "2026-08-21T15:08:27.666Z",
    "texto": "o preço base está a 115,10. e o desconto está travado em 33% que no BOUW10 resulta em 78,20. nao da pra alterar isso, nao é ajustável ou sugerido, o desconto minimo é 33% travado. não só o BOUW10 mas todas as promoções."
   }
- ],
- "_arq": "2026-08-21T14-13-12-069Z-iagomercadolivre.json",
- "_sha": "201671e83ee8db54b8a07f0009d281b5caa2f011"
+ ]
 }
