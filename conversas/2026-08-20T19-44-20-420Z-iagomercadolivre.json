@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-20T19:44:20.420Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "MLB4373456443",
   "titulo": "Kit 2 Luva Orange Palma Vulcanizada Obra Serviço Gerais Lixo",
@@ -31,6 +31,11 @@
    "quem": "Iago - Mercado Livre",
    "quando": "2026-08-21T14:01:27.027Z",
    "texto": "o correto é sempre usar a nota fiscal mais recente. o app está atualizado com a nota fiscal mais recente?"
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-21T11:10:19",
+   "texto": "Iago, a regra e essa mesma e o app ja trabalha assim — a fonte do custo dele se chama literalmente 'compra_ultimo_preco'. Mas fui medir e a resposta a sua pergunta e: em parte. Vale a pena ver o tamanho e, principalmente, o porque.\n\nMEDI O CATALOGO INTEIRO. Peguei todos os SKUs simples (sem kit, que e outra conta) com anuncio no ar e com nota no sistema: 551. Destes, 363 batem com a nota mais recente e 188 nao batem. So que quando abri os 188 um por um, eles se dividem em dois grupos bem diferentes:\n\n   33  o app esta MESMO atrasado — a nota e compra de abastecimento (quantidade cheia, fornecedor de sempre) e o custo nao acompanhou\n  155  a nota mais recente NAO SERVE de custo — e preco de pacote, e compra avulsa de uma unidade, ou nem e compra\n\nE OS SEUS DOIS CASOS SAO UM DE CADA. Por isso eles sao um exemplo tao bom:\n\n1) KIT 2 LUVA ORANGE — voce esta certo, o app esta atrasado.\n   Os R$9,14 que ele usa nao vem de nota NENHUMA: vem da lista de precos do Tiny. A nota mais recente e a NF 214897, de 18/08, da VCH, e nela o par sai por R$3,86 — dois pares, R$7,72.\n   Pela sua regra o custo certo e 7,72, e eu concordo: e nota nova, fornecedor de sempre, quantidade de abastecimento. No seu preco de R$26,20 isso da 19,54% em vez de 14,12%.\n\n2) FITA ZEBRADA — aqui a sua regra, ao pe da letra, daria um numero que voce nao vai querer.\n   A nota MAIS RECENTE dessa fita e de 02/06, da ANKARA ENGENHARIA, a R$12,90, com 11 unidades. Se a gente usar ela, o custo do kit de 2 quase dobra e o anuncio afunda.\n   So que essa nota nao e compra: ela e CFOP 1202, que e DEVOLUCAO. O proprio sistema ja tinha desconfiado dela — esta escrito no cadastro 'era 12.9 cfop 1202'.\n   A compra de verdade mais recente e a NF 373916, da PLASTCOR, de 29/05, com 80 rolos a R$7,80. Com IPI de 3,25% da exatamente R$8,05 — que e o numero da nota no conflito.\n   E o que esta travado hoje, R$7,70, e a nota ANTIGA (7,46 + IPI). Ou seja: pela sua regra, a base certa e 8,05 e nao 7,70. E ai o kit de 2 vai para R$15,41 e o anuncio cai de 11,77% para 1,74% no preco de campanha.\n\nENTAO A REGRA COMPLETA, do jeito que eu proporia:\n  use sempre a nota mais recente — desde que ela seja COMPRA (nao devolucao) e esteja na MESMA unidade do anuncio (nota de caixa nao e preco de peca).\nSem esses dois filtros a regra se vira contra a gente: nos 155 casos ela colocaria preco de pacote como preco de peca, ou devolucao como compra.\n\nO QUE PRECISO DE VOCE: confirma que eu fecho os dois conflitos assim? Luva Orange em R$7,72 e a base da Fita Zebrada em R$8,05. O segundo e o que dói — significa admitir que aquele anuncio esta praticamente empatando e nao ganhando 11,77%. Nao vou mexer no custo sem o seu ok, porque custo e decisao sua e do Marcelo.\n\nE os outros 32 atrasados eu ja mandei na lista para o Marcelo. Tem uns que interessam voce: a Luva Sensi Black esta com 23,99 no app e a nota de 29/07 diz 16,79 — nesse caso o app esta COBRANDO caro demais de si mesmo e a margem real e melhor do que a tela mostra."
   }
  ]
 }
