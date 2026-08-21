@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-20T19:37:18.985Z",
- "estado": "respondido",
+ "estado": "resolvido",
  "contexto": {
   "mlb": "SHP58201857494",
   "titulo": "Kit 5un Fita Zebrada Plastcor 70mm x 200m Preta Amarela Sinalização Segurança Isolamento O",
@@ -31,5 +31,7 @@
    "quando": "2026-08-21T10:29:11",
    "texto": "Ana, voce esta certa e eu estava errado. Nao e ST. Fui na NF 373916 como voce mandou e ela esta assim: PLASTCOR, 29/05, FITA ZEBRADA 200MTS PRETO/AMARELO, CST 00, ICMS 18%. CST 00 e tributacao normal — nao tem ST nenhum. Voce olhou a nota e viu o que eu devia ter visto.\n\nE O MOTIVO E PIOR DO QUE UM ERRO DE DIGITACAO. O app nao leu a sua nota. Ele foi procurar sozinho uma nota que combinasse com o produto, e casou a Fita Zebrada com ISTO:\n\n   'LINEAR MAG 12W 4000K 48V PRETO 840L IP20' — uma LUMINARIA LED, da SHEMESH COMERCIO, a R$40,38.\n\nO custo do seu kit e R$40,27. A luminaria custa R$40,38. Preco quase igual, e a unica palavra que as duas descricoes tem em comum e 'PRETO'. Foi so isso: a cor. E como aquela luminaria e ST, a sua fita herdou o ST dela e perdeu o credito de ICMS.\n\nO NUMERO CERTO, com a sua nota:\n   custo                                    40,27\n   credito de ICMS 18% (NF 373916)           7,25\n   credito de PIS/COFINS 9,25% sobre 33,02   3,05\n   CREDITO TOTAL                            10,30   (o app estava usando 3,72)\n\n   a R$78,90  ->  margem 8,69%\n\nOu seja: nao e 0,35% (o que o app dizia) nem 16,68% (o meu cenario de ontem, que partia da premissa errada de que era ST). E 8,69%. Peco desculpa pelos dois numeros de ontem — a conta estava certa, a premissa e que estava podre.\n\nO QUE ISSO MUDA PRA VOCE: 8,69% ainda esta um pouco abaixo da regua de 10%, mas agora e uma distancia normal, nao um buraco. Para bater os 10% o preco seria R$95,21. E repara que R$95,21 ja passou daquela zona morta que voce identificou — la em cima de 90 a conta volta a fechar. Entao das duas uma: fica em 78,90 com 8,69%, ou pula direto para 95,21 e bate a regua. O que NAO vale e parar entre 80 e 92, que e o pior dos mundos.\n\nNAO tirei da lista ainda porque 8,69% e menos que 10, mas mudei de posicao: ontem eu disse para voce nao mexer no preco ate vir resposta de contador. Cancela isso. Nao depende mais de contador nenhum — era classificacao errada, e voce provou. Se quiser subir para 95,21, pode.\n\nE ISSO NAO ERA SO SEU. Fui varrer quantos produtos o app casou com nota alheia so por causa de uma palavra generica como a cor: sao 90 SKUs, e 15 deles herdaram ST de um produto que nao tem nada a ver — como o seu. Tem bota casada com suporte de TV, rodape casado com papel A4. Achei porque voce mandou eu conferir. Ja subiu para o Marcelo com a lista."
   }
- ]
+ ],
+ "_arq": "2026-08-20T19-37-18-985Z-anashopee.json",
+ "_sha": "b2d36a14dea4fb0919ab94862dcee0fbc417a870"
 }
