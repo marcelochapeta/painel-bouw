@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-21T16:57:42.043Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "SHP58204793814",
   "titulo": "Kit 4 Fita Perfurada Aço Galvanizado 17 ou 19mm x 30m Fixação Tubo Estrutura Construção Hi",
@@ -14,6 +14,11 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-21T16:57:42.043Z",
    "texto": "Adicione pra mim no campo da Shopee onde está escrito Dashboard, lá na aba \"reputura de estoque\". No mercado livre é considerado a rupturas de estoque com base no full, eu entendo que a Shopee não tem full, e por esse motivo eu quero que você pegue da lista de anúncios mesmo, veja quais itens vendiam bem e agora não vende pq acabaram os estoques, faça dois campos um chamado \"ruptura de estoque\" que é justamente isso, todos os itens que vendia bem e parou pq acabou estoque, mesmo que tenham produtos que é variação, você precisa identificar isso pra mim, exemplo: parou de vender a variação de número 39 de uma bota X (ai vc vai saber que é 1 só número dentro da variação e que teve ruptura.)  o outro campo vão ser \"geral\" que é todos os produtos que estão sem estoques o de baixo e grande giro."
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-21T14:06:33",
+   "texto": "Ana, esta pronto e no ar. Recarrega a pagina, vai na Shopee e abre a aba 📦 Ruptura — antes ela dizia 'sem dados', agora tem os dois campos que voce pediu.\n\nO QUE VOCE VAI VER, com os numeros de hoje:\n\n  🛑 RUPTURA DE ESTOQUE — 95 linhas\n     estoque zerado E que ja vendeu. E a lista que doi.\n     Ordenada pelo que MAIS vendeu, entao o topo e onde voce esta perdendo mais.\n\n  📦 GERAL — 267 linhas\n     tudo que esta com estoque zero, tenha vendido ou nao (o giro alto e o baixo, como voce falou).\n     Dentro dele, 172 nunca venderam nada.\n\nA LINHA E A VARIACAO, NAO O ANUNCIO — que era o principal do seu pedido. Um anuncio com 12 numeracoes e uma esgotada nao aparece como 'sem estoque': aparece como buraco na grade, com o nome da variacao do lado do titulo. Tem uma bolinha so para isso: 79 das 95 rupturas sao UMA variacao dentro de um anuncio que segue no ar.\n\nO topo da lista hoje:\n   128 vendas · Luva Latex Neoprene Bicolor [G]           · 180 dias sem vender\n   116 vendas · Pistola Fixacao Fincapino                 ·  53 dias\n    74 vendas · Bota Botina Couro Nobuck [Preto,40]       ·  48 dias\n    56 vendas · Bota Botina Couro Nobuck [Marrom,40]      ·  40 dias\n    42 vendas · Bota Botina Couro Nobuck [Marrom,41]      ·  39 dias\nRepara na bota: tres numeracoes da mesma bota zeradas. Isso e exatamente o seu exemplo do numero 39.\n\nDUAS COISAS QUE EU FIZ DIFERENTE DO QUE VOCE PEDIU, e quero que voce saiba por que:\n\n1) Botei uma coluna 'sem vender' com a data da ultima venda, colorida: vermelho ate 30 dias, ambar ate 90, cinza depois. Porque 'vendia bem e parou' tem dois tipos bem diferentes — a Luva [G] vendeu 128 mas a ultima venda foi ha SEIS MESES, entao provavelmente nao e ruptura fresca, e anuncio que morreu. Ja a bota Marrom,41 parou ha 39 dias com 42 vendas: essa e ferida aberta. Sem essa coluna as duas apareceriam iguais.\n\n2) NAO afirmo que parou POR CAUSA do estoque. Eu consigo provar que o estoque e zero e que aquilo ja vendeu; que uma coisa causou a outra e a leitura mais provavel, nao um fato que eu medi — pode ter parado de vender primeiro e por isso ninguem repos. Deixei isso escrito na tela, embaixo da tabela, para ninguem tratar a lista como verdade absoluta.\n\nO QUE AINDA NAO TEM: nao coloquei 'quanto repor', que e o que a aba do Mercado Livre mostra. La da para calcular porque o Full informa cobertura em dias; na Shopee eu nao tenho velocidade confiavel por variacao para dizer 'compre 20'. Se voce quiser, eu tento montar isso — mas prefiro te dizer que nao sei do que inventar um numero de reposicao.\n\nSe faltar coluna, ordem diferente, ou se voce quiser um corte tipo 'so o que parou nos ultimos 30 dias', me fala que eu ajusto."
   }
  ]
 }
