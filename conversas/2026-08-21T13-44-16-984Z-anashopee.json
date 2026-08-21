@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-21T13-44-16-984Z-anashopee.json",
+ "_sha": null,
+ "quem": "Ana - Shopee",
+ "aberto_em": "2026-08-21T13:44:16.984Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": null,
+  "titulo": null,
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Ana - Shopee",
+   "quando": "2026-08-21T13:44:16.984Z",
+   "texto": "Gostaria de te fazer uma solicitação, será que consegue?\n\nComo estamos enviando bastante solicitações, tanto do ML quanto da Shopee que tal você dividir os campos e separar os casos, \"resolvido e pendente\", o que foi resolvido fica em uma aba de resolvidos e os pendentes em outra, pra não misturar tudo e ficar confuso."
+  }
+ ]
+}
