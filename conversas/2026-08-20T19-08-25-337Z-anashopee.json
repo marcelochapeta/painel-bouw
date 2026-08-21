@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-20T19:08:25.337Z",
- "estado": "novo",
+ "estado": "em_analise",
  "contexto": {
   "mlb": "SHP58265543373",
   "titulo": "Kit Limpeza Sapato Ocupacional Antiderrapante Impermeável CA 45991 + Luva Látex Reforçada",
@@ -32,7 +32,5 @@
    "quando": "2026-08-21T12:53:13.244Z",
    "texto": "outro detalhe, isso serve para o Mercado Livre também"
   }
- ],
- "_arq": "2026-08-20T19-08-25-337Z-anashopee.json",
- "_sha": "b1217b569d0be76a3aa42cbe8c9ed8e1304323d3"
+ ]
 }
