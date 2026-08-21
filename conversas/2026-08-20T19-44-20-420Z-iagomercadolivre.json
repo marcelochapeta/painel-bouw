@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-20T19:44:20.420Z",
- "estado": "novo",
+ "estado": "em_analise",
  "contexto": {
   "mlb": "MLB4373456443",
   "titulo": "Kit 2 Luva Orange Palma Vulcanizada Obra Serviço Gerais Lixo",
@@ -32,7 +32,5 @@
    "quando": "2026-08-21T14:01:27.027Z",
    "texto": "o correto é sempre usar a nota fiscal mais recente. o app está atualizado com a nota fiscal mais recente?"
   }
- ],
- "_arq": "2026-08-20T19-44-20-420Z-iagomercadolivre.json",
- "_sha": "c309a9e6b7436e5aa982d77505a9f4ecba6c20f5"
+ ]
 }
