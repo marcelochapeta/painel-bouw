@@ -1,7 +1,7 @@
 {
  "quem": "Iago - Mercado Livre",
  "aberto_em": "2026-08-21T14:13:12.069Z",
- "estado": "respondido",
+ "estado": "novo",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -19,6 +19,14 @@
    "de": "robo",
    "quando": "2026-08-21T11:19:59",
    "texto": "Iago, fui perguntar ao ML agora, ao vivo, e acho que sao DUAS promocoes diferentes na sua tela — voce esta certo sobre uma e a lista esta certa sobre a outra.\n\nO QUE O ML RESPONDEU NESTE MINUTO para o MLB4642844935 (Kit 10 Jogo Broca 4mm Premium), preco cheio R$115,10:\n\n  BOUW10 (a nossa)              teto R$103,59  ·  minimo 23,02  ·  sugerido 97,84   -> AJUSTAVEL\n  DEAL '9.9' (20/08 a 10/09)    teto R$103,59                                       -> AJUSTAVEL\n  Meli Essencial Agosto         preco FIXO R$76,62                                  -> NAO ajustavel\n  PROMO VENDE TUDO AGO26        preco FIXO R$76,62                                  -> NAO ajustavel\n\nRepara: as duas que estao TRAVADAS sao as SMART do proprio ML — elas vem com preco cravado e sem faixa, entao nao tem o que ajustar mesmo. E R$76,62 esta bem perto dos R$78,20 que voce viu; e quase certo que era uma dessas na tela, nao a BOUW10.\n\nA BOUW10 nao esta travada em 78,20. O teto dela hoje e R$103,59.\n\nE AGORA A PARTE BOA: a R$103,59 a margem e 10,04%. O preco que da exatamente os 10% da regua e R$103,51. Ou seja, ele CABE na BOUW10 — por 8 centavos. Entao a lista esta certa: pode entrar.\n\n  R$115,10 (cheio)      -> 15,39%\n  R$103,59 (teto BOUW10) -> 10,04%   <- cabe\n  R$ 97,84 (sugerido ML) ->  8,75%   <- NAO aceitar o sugerido, fica abaixo da regua\n  R$ 76,62 (as SMART)    -> -0,97%   <- prejuizo, voce esta certissimo em nao usar\n\nDUAS COISAS PARA VOCE SE ATENTAR:\n\n1) NAO ACEITE O PRECO SUGERIDO. O ML sugere R$97,84 e isso da 8,75%, abaixo da regua. Tem que entrar no TETO (103,59), nao no sugerido.\n\n2) SAO 8 CENTAVOS DE FOLGA, e o teto do ML se mexe no mesmo dia. Se amanha ele cair para 103,40, o anuncio deixa de caber e entrar vira prejuizo silencioso. Entao mede na hora de entrar, nao no relatorio da manha. Se der diferenca, me chama que eu meco de novo.\n\nDe resto conferi o custo e ele esta solido: R$46,70, que e R$4,67 por broca (NF 366676 da BDB, de 25/07) vezes as 10 do anuncio. E o ST desse item e legitimo — as notas da BDB sao ST mesmo, entao o credito de R$4,32 so de PIS/COFINS esta certo.\n\nNAO subi a promocao — mexer em campanha e da sessao que executa. Esta encaminhado com o teto medido e a hora."
+  },
+  {
+   "de": "pessoa",
+   "quem": "Iago - Mercado Livre",
+   "quando": "2026-08-21T15:08:27.666Z",
+   "texto": "o preço base está a 115,10. e o desconto está travado em 33% que no BOUW10 resulta em 78,20. nao da pra alterar isso, nao é ajustável ou sugerido, o desconto minimo é 33% travado. não só o BOUW10 mas todas as promoções."
   }
- ]
+ ],
+ "_arq": "2026-08-21T14-13-12-069Z-iagomercadolivre.json",
+ "_sha": "201671e83ee8db54b8a07f0009d281b5caa2f011"
 }
