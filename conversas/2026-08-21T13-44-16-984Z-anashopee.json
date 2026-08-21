@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-21T13:44:16.984Z",
- "estado": "respondido",
+ "estado": "resolvido",
  "contexto": {
   "mlb": null,
   "titulo": null,
@@ -20,5 +20,7 @@
    "quando": "2026-08-21T10:55:39",
    "texto": "Ana, consigo sim — ja esta no ar. Recarrega a pagina do painel e abre o chat que voce ve duas abas em cima: PENDENTES e RESOLVIDOS, cada uma com a contagem do lado.\n\nMAS TEM UMA DECISAO AI DENTRO QUE EU PRECISO TE CONTAR, porque ela muda o que voce vai ver.\n\nO que separa as duas abas NAO e 'o robo ja respondeu'. E so o assunto estar encerrado de verdade. Fui contar antes de programar: dos 17 assuntos, 14 estao como 'respondido' e apenas 2 como 'resolvido'. Se eu tivesse usado 'o robo respondeu' como criterio, 16 dos 17 cairiam em RESOLVIDOS — e a aba iria dizer que esta tudo resolvido justamente quando quase nada esta. Seria a mesma confusao que voce quer acabar, so que com nome novo.\n\nEntao ficou assim: responder devolve a bola pra voce, resolver e o problema ter acabado. Sao coisas diferentes e agora a tela mostra as duas.\n\nE POR ISSO VOCE GANHOU UM BOTAO. Dentro de cada assunto tem 'marcar resolvido', embaixo do campo de escrever. Quem encerra e VOCE, nao eu — so voce sabe se o seu problema acabou. Eu posso ter respondido bonito e o numero continuar errado na sua tela; nesse caso o assunto nao esta resolvido, esta so respondido. Pede confirmacao em dois cliques pra ninguem encerrar sem querer, e se precisar voltar atras o mesmo botao vira 'reabrir este assunto'.\n\nNa pratica:\n  PENDENTES  — tudo que ainda esta aberto. Cada um diz de quem e a bola:\n                 'o robo respondeu — a bola esta com voce'  (verde)\n                 'com o robo'                               (ambar, eu ainda estou devendo)\n  RESOLVIDOS — so o que voce encerrou clicando no botao.\n\nComeca vazia ou quase — sao 2 la dentro. Nao e bug: e o retrato honesto de quantos assuntos foram ate o fim. Conforme voce for fechando os que ja resolveram, ela enche.\n\nUMA COISA QUE EU FIZ E VOCE NAO PEDIU, mas acho que voce vai gostar: deixei um teste automatico gravado que quebra se alguem um dia trocar esse criterio por 'o robo respondeu'. Conferi que ele reprova mesmo, quebrando de proposito. E pra essa separacao nao se desfazer sozinha daqui a uns meses.\n\nSe ficar faltando alguma coisa quando voce olhar — ordem, filtro por canal, o que for — me fala que eu ajusto."
   }
- ]
+ ],
+ "_arq": "2026-08-21T13-44-16-984Z-anashopee.json",
+ "_sha": "ba32454e61d9c97b370a0dfcd36301e65f671ec4"
 }
