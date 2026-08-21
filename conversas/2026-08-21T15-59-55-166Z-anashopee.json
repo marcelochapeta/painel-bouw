@@ -1,7 +1,7 @@
 {
  "quem": "Ana - Shopee",
  "aberto_em": "2026-08-21T15:59:55.166Z",
- "estado": "em_analise",
+ "estado": "respondido",
  "contexto": {
   "mlb": "SHP58265543373",
   "titulo": "Kit Limpeza Sapato Ocupacional Antiderrapante Impermeável CA 45991 + Luva Látex Reforçada",
@@ -14,6 +14,11 @@
    "quem": "Ana - Shopee",
    "quando": "2026-08-21T15:59:55.166Z",
    "texto": "Uma dúvida, porque toda vez que eu mudo o preço na shopee você não atualiza aqui no robô também? já é a 3 ou 4 vez que eu troco lá e aqui ainda não tá atualizado, pq eu tendo colocado \"republicar\", você precisa ficar atento a isso. Tem produtos que vc ainda considera margem baixa, sendo que já foi alterado o preço faz tempo."
+  },
+  {
+   "de": "robo",
+   "quando": "2026-08-21T13:07:47",
+   "texto": "Ana, voce estava certa e eu achei a causa no log — o botao republicar REALMENTE nao funcionava para produto da Shopee. Nao era impressao sua.\n\nO QUE ACONTECIA. Quando voce clicava republicar num item da Shopee, o robo chamava o buscador de preco do MERCADO LIVRE passando um codigo da Shopee. O ML nao entende esse codigo, entao ele devolvia erro e nao puxava nada. So que o resto do processo continuava e a pagina era republicada assim mesmo — ou seja, tudo parecia ter funcionado e o preco nao tinha mudado. E o pior tipo de botao que existe.\n\nEsta no registro, com hora:\n  20/08 15:51  voce republicou o item 58204795787  ->  erro, nao puxou\n  21/08 10:32  voce republicou o item 58201857494  ->  erro, nao puxou\n\nO CONSERTO ENTROU HOJE AS 11:11, ou seja 39 minutos DEPOIS da sua ultima tentativa. Agora existe um buscador separado para a Shopee e o robo escolhe o certo pelo codigo do produto. Acabei de testar no seu Kit Limpeza e funcionou: leu R$122,80 direto da Shopee.\n\nE CONFERI OS SEUS CINCO AGORA, um por um, comparando a tela com a Shopee ao vivo:\n  Kit Limpeza Sapato        app 122,80  ·  Shopee 122,80  OK\n  Kit 5un Fita Zebrada      app  78,90  ·  Shopee  78,90  OK\n  Kit 3 Luva Danny          app  48,50  ·  Shopee  48,50  OK\n  Kit 10 Protetor Auditivo  app 239,20  ·  Shopee 239,20  OK\n  Kit 50 Oculos Sky         app 151,30  ·  Shopee 151,30  OK\nTodos batendo. Neste momento o preco nao esta atrasado em nenhum.\n\nAGORA A OUTRA METADE, que e onde acho que esta a sua irritacao de verdade. Voce disse 'tem produtos que voce ainda considera margem baixa, sendo que ja foi alterado o preco faz tempo'. No Kit Limpeza isso continua acontecendo — mas NAO e preco velho. E aquele credito zerado que eu te contei ontem.\n\n  a R$122,80 com o credito ZERO que o app usa  ->  2,4%   (o que aparece na tela)\n  a R$122,80 com o credito CERTO de R$9,32    ->  10,00%\n\nVoce subiu para 122,80 e acertou EXATAMENTE os 10%. A tela e que ainda nao sabe, porque o conserto do credito e no motor e depende do Marcelo — nao e coisa que eu mexa sozinho, porque muda a margem de varios anuncios de uma vez.\n\nUMA COISA PARA VOCE SABER, para nao cair de novo: o botao de atualizar TUDO ainda nao re-puxa a Shopee, so o Mercado Livre. Quem funciona para a Shopee e o republicar de UM item. Se voce mudar varios de uma vez, republica um por um, ou me avisa que eu puxo todos na hora. Ja mandei isso para o Marcelo tambem."
   }
  ]
 }
