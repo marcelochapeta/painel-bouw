@@ -1,0 +1,21 @@
+{
+ "_arq": "2026-08-21T15-59-55-166Z-anashopee.json",
+ "_sha": null,
+ "quem": "Ana - Shopee",
+ "aberto_em": "2026-08-21T15:59:55.166Z",
+ "estado": "novo",
+ "contexto": {
+  "mlb": "SHP58265543373",
+  "titulo": "Kit Limpeza Sapato Ocupacional Antiderrapante Impermeável CA 45991 + Luva Látex Reforçada",
+  "canal": null,
+  "aba": null
+ },
+ "mensagens": [
+  {
+   "de": "pessoa",
+   "quem": "Ana - Shopee",
+   "quando": "2026-08-21T15:59:55.166Z",
+   "texto": "Uma dúvida, porque toda vez que eu mudo o preço na shopee você não atualiza aqui no robô também? já é a 3 ou 4 vez que eu troco lá e aqui ainda não tá atualizado, pq eu tendo colocado \"republicar\", você precisa ficar atento a isso. Tem produtos que vc ainda considera margem baixa, sendo que já foi alterado o preço faz tempo."
+  }
+ ]
+}
